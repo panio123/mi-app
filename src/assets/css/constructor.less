@@ -1,8 +1,36 @@
-.vmflex (@j:center,@v:center){
-  display: flex;
-  align-content: @j;
-  justify-content: @v;
+.ccflex{
   display: -webkit-box;
-  -webkit-box-align: @j;
-  -webkit-box-pack: @v;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.csflex{
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: start;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ceflex{
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: end;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.scflex{
+  display: -webkit-box;
+  -webkit-box-align:start;
+  -webkit-box-pack:center;
+  display: flex;
+  align-items:flex-start;
+  justify-content:center;
+}
+.vflex{
+  flex-direction: column;
+  -webkit-box-orient:vertical;
 }

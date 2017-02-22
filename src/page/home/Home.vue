@@ -4,7 +4,7 @@
       <div class="logo">
         <img src="http://m.mi.com/component/header/img/logo_e6453b2.png" alt="logo">
       </div>
-      <div class="search-box"></div>
+      <div class="search-box"><a href="#">搜索商品名称</a></div>
       <div class="login">
         <img src="http://m.mi.com/component/header/img/user_0319ba0.png" alt="login">
       </div>
@@ -12,20 +12,45 @@
     <div class="home-swiper-box">
       <swiper :list="imgList" :auto="true" :loop="true" :show-desc-mask="false" height="260px"></swiper>
     </div>
+    <div class="content">
+      <div class="section-box" v-for="section in sectionsList">
+        <vue-broadcast v-if="section.view_type === 'list_broadcast'" :list="section.body.items" :logo="section.body.title_logo_url"></vue-broadcast>
+        <vue-line v-else-if="section.view_type === 'divider_line'" :height="section.body.line_height" :bgcolor="section.body.line_color"></vue-line>
+        <vue-auto-img v-else-if="section.view_type === 'cells_auto_fill'" :list="section.body"></vue-auto-img>
+        <div class="list_two_type1" v-if="section.view_type === 'list_two_type1'">
+          <div class="list-box" v-for="item in section.body.items">
+            <img :src="item.img_url" alt="item.product_name">
+            <div class="list-box-bottom">
+              <h4>{{item.product_name}}</h4>
+              <h5>{{item.product_brief}}</h5>
+              <span>{{item.product_price}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <script>
   import service from '../../service'
   import {Swiper} from 'vux'
+  import VueBroadcast from 'components/home/broadcast.vue'
+  import VueLine from 'components/home/line.vue'
+  import VueAutoImg from 'components/home/autoImg.vue'
   export default {
     name: 'home',
     components: {
-      Swiper
+      Swiper,
+      VueBroadcast,
+      VueLine,
+      VueAutoImg
     },
     data() {
       return {
         test: 12414,
-        imgList: []
+        imgList: [],
+        sectionsList:[],
+        broadcastIndex:0
       }
     },
     methods: {
@@ -41,6 +66,15 @@
 
         console.log(me.imgList);
       },
+      autoScrollBroadcast(){
+        var me = this;
+        setInterval(()=>{
+          me.broadcastIndex++;
+          if(me.broadcastIndex >= 3){
+            me.broadcastIndex = 0;
+          }
+        },5000)
+      },
       parseUrl(action){
         let url;
         if (action.type === 'product') {
@@ -51,14 +85,24 @@
           url = '';
         }
         return url;
+      },
+      parseStyle(data){
+        let style = {};
+        style.width = data.w / 100 + 'rem';
+        style.height =data.h / 100 + 'rem';
+        style.top = data.y/100 + 'rem';
+        style.left = data.x/100 + 'rem';
+        return style
       }
     },
     created(){
       let me = this;
       service.homeList.get().then(data=> {
         let result = data.body.data;
-        console.log(result);
+        me.sectionsList = result.sections;
+        console.log(me.sectionsList);
         me.getImgList(result.header.body.items);
+        me.autoScrollBroadcast();
       })
     }
   }
@@ -68,40 +112,92 @@
   @import '../../assets/css/constructor.less';
 
   .home-header-wrap {
-  .vmflex;
+  .ccflex;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    padding: 0.3rem 0;
+    padding: 0.2rem 0;
     z-index: 999;
   .logo,
   .login {
-    width: 2.5rem;
-    height: 1rem;
+    width: 1rem;
 
   img {
     display: block;
-    width: 1.5rem;
+    width: 0.5rem;
     margin: auto;
   }
 
   }
   .login img {
-    width: 0.8rem;
+    width: 0.3rem;
   }
 
   .search-box {
-    width: 14rem;
-    height: 1.4rem;
+    width: 5.2rem;
+    height: .53rem;
     border-radius: 3px;
+    line-height: .34rem;
     overflow: hidden;
     background-image: url("http://m.mi.com/component/header/img/search_bfba941.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    a{
+      font-size: 0.15rem;
+      color: rgba(0,0,0,0.3);
+      margin-left:0.55rem;
+      padding-top: 0.1rem;
+      display: inline-block;
+    }
   }
 
   }
-  .home-swiper-box {
+
+  .section-box{
+    position: relative;
+    overflow: hidden;
+
+  .list-box{
+    .scflex;
+    .vflex;
+    width: 3.6rem;
+    height: auto;
+    float: left;
+    .list-box-bottom{
+      padding: .2rem .27rem;
+    }
+    h4{
+      font-size: .28rem;
+      color: rgba(0,0,0,.87);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    h5{
+      margin-top: .06rem;
+      font-size: .23rem;
+      line-height: .3rem;
+      color: rgba(0,0,0,.54);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    span{
+      font-size: .32rem;
+      color: #ff6000;
+      margin-top: .08rem;
+      &:before{
+          content: "￥";
+         font-size: .2rem;
+         margin-right: .05rem;
+       }
+    }
+
   }
+  }
+
+
+
+
 </style>
