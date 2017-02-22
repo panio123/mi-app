@@ -20,7 +20,7 @@
         <vue-list-two v-else-if="section.view_type === 'list_two_type1'" :list="section.body.items"></vue-list-two>
       </div>
     </div>
-    <vue-back-top></vue-back-top>
+    <vue-back-top :show="backTopShow"></vue-back-top>
   </div>
 </template>
 <script>
@@ -44,6 +44,7 @@
     data() {
       return {
         bgColor:0,
+        backTopShow:false,
         imgList: [],
         sectionsList:[]
       }
@@ -77,24 +78,31 @@
           me.sectionsList = result.sections;
           me.getImgList(result.header.body.items);
         })
+      },
+      listenScroll(e){
+        let me = this;
+          let scrollTop = e.target.body.scrollTop;
+          if(me.bgColor < 1 && scrollTop >= 200){
+            me.bgColor += 0.1;
+          }else if(me.bgColor > 0 && scrollTop < 200){
+            me.bgColor -= 0.1;
+            if(scrollTop === 0){
+              me.bgColor = 0;
+            }
+          }
+          if(scrollTop > 400){
+            me.backTopShow = true;
+          }else{
+            me.backTopShow = false;
+          }
       }
     },
     created(){
       this.getList();
     },
     mounted(){
-      let me = this;
-      document.addEventListener('scroll',(e)=>{
-        let scrollTop = e.target.body.scrollTop;
-        if(me.bgColor < 1 && scrollTop >= 200){
-            me.bgColor += 0.1;
-        }else if(me.bgColor > 0 && scrollTop < 200){
-          me.bgColor -= 0.1;
-          if(scrollTop === 0){
-            me.bgColor = 0;
-          }
-        }
-      })
+      document.addEventListener('scroll',this.listenScroll);
+      this.listenScroll({target:document});
     }
   }
 </script>

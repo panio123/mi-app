@@ -1,5 +1,5 @@
 <template>
-  <div class="back-top-wrap" @click="goTop">
+  <div class="back-top-wrap" @click="goTop" v-show="show">
     <img src="http://m.mi.com/views/index/img/top_1a2bcd9.png" alt="backTop">
   </div>
 </template>
@@ -14,6 +14,10 @@
         default:()=>{
           return document.body
         }
+      },
+      show:{
+        type:Boolean,
+        default:false
       }
     },
     data(){
