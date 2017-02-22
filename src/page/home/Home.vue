@@ -1,6 +1,6 @@
 <template>
   <div class="page-wrap" id="home-page">
-    <div class="home-header-wrap">
+    <div class="home-header-wrap" :style="{background:'rgba(229, 131, 59,' + bgColor + ')'}">
       <div class="logo">
         <img src="http://m.mi.com/component/header/img/logo_e6453b2.png" alt="logo">
       </div>
@@ -40,6 +40,7 @@
     },
     data() {
       return {
+        bgColor:0,
         imgList: [],
         sectionsList:[]
       }
@@ -77,6 +78,20 @@
     },
     created(){
       this.getList();
+    },
+    mounted(){
+      let me = this;
+      document.addEventListener('scroll',(e)=>{
+        let scrollTop = e.target.body.scrollTop;
+        if(me.bgColor < 1 && scrollTop >= 200){
+            me.bgColor += 0.1;
+        }else if(me.bgColor > 0 && scrollTop < 200){
+          me.bgColor -= 0.1;
+          if(scrollTop === 0){
+            me.bgColor = 0;
+          }
+        }
+      })
     }
   }
 </script>
