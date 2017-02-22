@@ -18,6 +18,17 @@
         <vue-line v-else-if="section.view_type === 'divider_line'" :height="section.body.line_height" :bgcolor="section.body.line_color"></vue-line>
         <vue-auto-img v-else-if="section.view_type === 'cells_auto_fill'" :list="section.body"></vue-auto-img>
         <vue-list-two v-else-if="section.view_type === 'list_two_type1'" :list="section.body.items"></vue-list-two>
+        <div v-else-if="section.view_type === 'list_action_title'" class="list_action_title">
+          <a>
+            {{section.body.items[0].action_title}}>
+          </a>
+        </div>
+      </div>
+      <div class="section-box" v-for="section in sectionsList2">
+        <vue-broadcast v-if="section.view_type === 'list_broadcast'" :list="section.body.items" :logo="section.body.title_logo_url"></vue-broadcast>
+        <vue-line v-else-if="section.view_type === 'divider_line'" :height="section.body.line_height" :bgcolor="section.body.line_color"></vue-line>
+        <vue-auto-img v-else-if="section.view_type === 'cells_auto_fill'" :list="section.body"></vue-auto-img>
+        <vue-list-two v-else-if="section.view_type === 'list_two_type1'" :list="section.body.items"></vue-list-two>
       </div>
     </div>
     <vue-back-top :show="backTopShow"></vue-back-top>
@@ -46,7 +57,8 @@
         bgColor:0,
         backTopShow:false,
         imgList: [],
-        sectionsList:[]
+        sectionsList:[],
+        sectionsList2:[]
       }
     },
     methods: {
@@ -79,11 +91,21 @@
           me.getImgList(result.header.body.items);
         })
       },
-      listenScroll(e){
+      getList2(){
         let me = this;
-          let scrollTop = e.target.body.scrollTop;
+        service.homeList2.get().then(data=> {
+          let result = data.body.data;
+          me.sectionsList2 = result.sections;
+        })
+      },
+      listenScroll(e,type){
+        let me = this,
+          scrollTop = e.target.body.scrollTop;
           if(me.bgColor < 1 && scrollTop >= 200){
             me.bgColor += 0.1;
+            if(type){
+              me.bgColor = 1;
+            }
           }else if(me.bgColor > 0 && scrollTop < 200){
             me.bgColor -= 0.1;
             if(scrollTop === 0){
@@ -99,10 +121,15 @@
     },
     created(){
       this.getList();
+      this.getList2();
     },
     mounted(){
       document.addEventListener('scroll',this.listenScroll);
-      this.listenScroll({target:document});
+    },
+    updated(){
+      this.$nextTick(()=>{
+        this.listenScroll({target:document},true);
+      })
     }
   }
 </script>
@@ -158,7 +185,13 @@
     overflow: hidden;
   }
 
-
+  .list_action_title {
+    height: 1rem;
+    line-height: 1rem;
+    font-size: .28rem;
+    text-align: center;
+    background: #fff;
+  }
 
 
 </style>
