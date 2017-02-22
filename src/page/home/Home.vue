@@ -40,10 +40,8 @@
     },
     data() {
       return {
-        test: 12414,
         imgList: [],
-        sectionsList:[],
-        broadcastIndex:0
+        sectionsList:[]
       }
     },
     methods: {
@@ -56,17 +54,6 @@
           a.url = me.parseUrl(item.action);
           me.imgList.push(a);
         });
-
-        console.log(me.imgList);
-      },
-      autoScrollBroadcast(){
-        var me = this;
-        setInterval(()=>{
-          me.broadcastIndex++;
-          if(me.broadcastIndex >= 3){
-            me.broadcastIndex = 0;
-          }
-        },5000)
       },
       parseUrl(action){
         let url;
@@ -79,24 +66,17 @@
         }
         return url;
       },
-      parseStyle(data){
-        let style = {};
-        style.width = data.w / 100 + 'rem';
-        style.height =data.h / 100 + 'rem';
-        style.top = data.y/100 + 'rem';
-        style.left = data.x/100 + 'rem';
-        return style
+      getList(){
+        let me = this;
+        service.homeList.get().then(data=> {
+          let result = data.body.data;
+          me.sectionsList = result.sections;
+          me.getImgList(result.header.body.items);
+        })
       }
     },
     created(){
-      let me = this;
-      service.homeList.get().then(data=> {
-        let result = data.body.data;
-        me.sectionsList = result.sections;
-        console.log(me.sectionsList);
-        me.getImgList(result.header.body.items);
-        me.autoScrollBroadcast();
-      })
+      this.getList();
     }
   }
 </script>
