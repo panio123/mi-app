@@ -20,6 +20,7 @@
         <vue-list-two v-else-if="section.view_type === 'list_two_type1'" :list="section.body.items"></vue-list-two>
       </div>
     </div>
+    <vue-back-top></vue-back-top>
   </div>
 </template>
 <script>
@@ -28,7 +29,8 @@
   import VueBroadcast from 'components/home/broadcast.vue'
   import VueLine from 'components/home/line.vue'
   import VueAutoImg from 'components/home/autoImg.vue'
-  import VueListTwo from 'components/home/list-two.vue'
+  import VueListTwo from 'components/home/listTwo.vue'
+  import VueBackTop from 'components/common/backTop.vue'
   export default {
     name: 'home',
     components: {
@@ -36,7 +38,8 @@
       VueBroadcast,
       VueLine,
       VueAutoImg,
-      VueListTwo
+      VueListTwo,
+      VueBackTop
     },
     data() {
       return {
