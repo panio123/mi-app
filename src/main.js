@@ -5,8 +5,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueResource from 'vue-resource'
-import VueRouter from 'vue-router'
+import directives from'./directive'
 
+
+//注册全局指令
+for(let key in directives){
+    Vue.directive(key,directives[key]);
+}
 new Vue({
   el: '#app',
   router,

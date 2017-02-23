@@ -26,16 +26,16 @@
 </script>
 <style lang="less">
   @import '../../assets/css/constructor.less';
-
-  .list-box{
-  .scflex;
-  .vflex;
+  .list-box {
+    .scflex;
+    .vflex;
     width: 3.6rem;
     height: auto;
     float: left;
-  .list-box-bottom{
-    padding: .2rem .27rem;
-    width:100%;
+    .list-box-bottom {
+      padding: .2rem .27rem;
+      width: 100%;
+    }
   }
-  }
+
 </style>

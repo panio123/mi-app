@@ -1,36 +1,40 @@
-.ccflex{
+.flex{
   display: -webkit-box;
+  display: flex;
+}
+.ccflex {
+  .flex;
   -webkit-box-align: center;
   -webkit-box-pack: center;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
-.csflex{
-  display: -webkit-box;
+
+.csflex {
+  .flex;
   -webkit-box-align: center;
   -webkit-box-pack: start;
-  display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.ceflex{
-  display: -webkit-box;
+
+.ceflex {
+  .flex;
   -webkit-box-align: center;
   -webkit-box-pack: end;
-  display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.scflex{
-  display: -webkit-box;
-  -webkit-box-align:start;
-  -webkit-box-pack:center;
-  display: flex;
-  align-items:flex-start;
-  justify-content:center;
+
+.scflex {
+  .flex;
+  -webkit-box-align: start;
+  -webkit-box-pack: center;
+  align-items: flex-start;
+  justify-content: center;
 }
-.vflex{
+
+.vflex {
   flex-direction: column;
-  -webkit-box-orient:vertical;
+  -webkit-box-orient: vertical;
 }

@@ -4,7 +4,9 @@
       <div class="logo">
         <img src="http://m.mi.com/component/header/img/logo_e6453b2.png" alt="logo">
       </div>
-      <div class="search-box"><a href="#">搜索商品名称</a></div>
+      <div class="search-box">
+          <router-link to="search">搜索商品名称</router-link>
+      </div>
       <div class="login">
         <img src="http://m.mi.com/component/header/img/user_0319ba0.png" alt="login">
       </div>
@@ -30,19 +32,26 @@
         <vue-line v-else-if="section.view_type === 'divider_line'" :height="section.body.line_height" :bgcolor="section.body.line_color"></vue-line>
         <vue-auto-img v-else-if="section.view_type === 'cells_auto_fill'" :list="section.body"></vue-auto-img>
         <vue-list-two v-else-if="section.view_type === 'list_two_type1'" :list="section.body.items"></vue-list-two>
+        <vue-list-one12 v-else-if="section.view_type === 'list_one_type12'" :list="section.body.items"></vue-list-one12>
+        <div v-else-if="section.view_type === 'list_action_title'" class="list_action_title">
+          <a>
+            {{section.body.items[0].action_title}}>
+          </a>
+        </div>        
       </div>
     </div>
     <vue-back-top :show="backTopShow"></vue-back-top>
   </div>
 </template>
 <script>
-  import service from '../../service'
+  import service from 'service'
   import {Swiper} from 'vux'
   import VueBroadcast from 'components/home/broadcast.vue'
   import VueLine from 'components/home/line.vue'
   import VueAutoImg from 'components/home/autoImg.vue'
   import VueListTwo from 'components/home/listTwo.vue'
   import VueListOne from 'components/home/listOne.vue'
+  import VueListOne12 from 'components/home/listOne12.vue'
   import VueBackTop from 'components/common/backTop.vue'
   export default {
     name: 'home',
@@ -53,6 +62,7 @@
       VueAutoImg,
       VueListTwo,
       VueListOne,
+      VueListOne12,
       VueBackTop
     },
     data() {
@@ -92,13 +102,14 @@
           let result = data.body.data;
           me.sectionsList = result.sections;
           me.getImgList(result.header.body.items);
+          me.getList2();
         })
       },
       getList2(){
         let me = this;
         service.homeList2.get().then(data=> {
           let result = data.body.data;
-          me.sectionsList2 = result.sections;
+          me.sectionsList = me.sectionsList.concat(result.sections);
         })
       },
       listenScroll(e,type){
@@ -138,56 +149,56 @@
 </script>
 
 <style lang="less">
+/*http://img01.mifile.cn/m/source/img/milogo.png*/
+/*http://m.mi.com/component/footer/img/spr1_5b2e09c.png*/
   @import '../../assets/css/constructor.less';
-
   .home-header-wrap {
-  .ccflex;
+    .ccflex;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     padding: 0.2rem 0;
     z-index: 999;
-  .logo,
-  .login {
-    width: 1rem;
-
-  img {
-    display: block;
-    width: 0.5rem;
-    margin: auto;
-  }
-
-  }
-  .login img {
-    width: 0.3rem;
-  }
-
-  .search-box {
-    width: 5.2rem;
-    height: .53rem;
-    border-radius: 3px;
-    line-height: .34rem;
-    overflow: hidden;
-    background-image: url("http://m.mi.com/component/header/img/search_bfba941.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    a{
-      font-size: 0.15rem;
-      color: rgba(0,0,0,0.3);
-      margin-left:0.55rem;
-      padding-top: 0.1rem;
-      display: inline-block;
+    .logo,
+    .login {
+      width: 1rem;
+      img {
+        display: block;
+        width: 0.5rem;
+        margin: auto;
+      }
+    }
+    .login img {
+      width: 0.3rem;
+    }
+    .search-box {
+      width: 5.2rem;
+      height: .53rem;
+      border-radius: 3px;
+      line-height: .34rem;
+      overflow: hidden;
+      background-image: url("http://m.mi.com/component/header/img/search_bfba941.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      a {
+        font-size: 0.15rem;
+        color: rgba(0, 0, 0, 0.3);
+        padding-left: 0.55rem;
+        padding-top: 0.1rem;
+        box-sizing:border-box;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+      }
     }
   }
-
-  }
-
-  .section-box{
+  
+  .section-box {
     position: relative;
     overflow: hidden;
   }
-
+  
   .list_action_title {
     height: 1rem;
     line-height: 1rem;
@@ -195,6 +206,5 @@
     text-align: center;
     background: #fff;
   }
-
 
 </style>

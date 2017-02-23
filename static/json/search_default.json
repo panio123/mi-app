@@ -1,0 +1,47 @@
+{
+  "data": {
+    "ad_list": [{
+      "view_type": "cells_auto_fill",
+      "stat": "",
+      "body": {
+        "line_color": "",
+        "line_height": "",
+        "w": 720,
+        "h": 200,
+        "title_logo_url": "",
+        "items": [{
+          "img_url": "//cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/c16feccb08cde7cc55a226d4cabc342c.jpg",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/155a93b1-efc9-03ac-06fe-b3e82c37ab77.webp",
+          "action": {
+            "type": "none",
+            "log_code": "31wapadsearch-precells_auto_fill001002#rid=2d5a58cac160201f2a70b76556efb656"
+          },
+          "w": 720,
+          "h": 200,
+          "path_type": "image"
+        }]
+      }
+    }],
+    "keywords": [{
+      "back_n": "#e8f6f6",
+      "border_n": "#8cdade",
+      "font_n": "#484848",
+      "word": "小米5s 购机赠1k书币"
+    }, {
+      "back_n": "#fae8e8",
+      "border_n": "#e3af96",
+      "font_n": "#484848",
+      "word": "红米Note 4X "
+    }, {
+      "back_n": "#f2f6e9",
+      "border_n": "#bbd090",
+      "font_n": "#484848",
+      "word": "小米Note 2"
+    }, {
+      "back_n": "#e8f6f6",
+      "border_n": "#8cdade",
+      "font_n": "#484848",
+      "word": "智能电饭煲"
+    }]
+  }
+}

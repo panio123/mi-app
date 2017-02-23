@@ -14,7 +14,26 @@ body {
   color: @baseFontColor;
 }
 
-html, body, h1, h2, h3, h4, h5, h6, h7, p, dl, dd, ol, ul, th, td, form, fieldset, input, button, textarea {
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+dl,
+dd,
+ol,
+ul,
+th,
+td,
+form,
+fieldset,
+input,
+button,
+textarea {
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -38,7 +57,15 @@ img {
   display: block;
   width: 100%;
 }
-
+input,
+textarea{
+  outline: none;
+}
+.page-wrap{
+  &.has-header{
+    padding-top: 1rem;
+  }
+}
 .product-list-info {
   h4 {
     font-size: .28rem;

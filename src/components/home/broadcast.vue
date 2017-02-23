@@ -49,52 +49,49 @@
 <style lang="less">
   @import '../../assets/css/constructor.less';
   .list_broadcast {
-  .csflex;
-
-  .logo {
-    width: 1.8rem;
-    overflow: hidden;
-    position: relative;
-
-  &:after {
-    content: '|';
-    font-size: 0.3rem;
-    color: #ccc;
-    position: absolute;
-    top: 50%;
-    right: 3px;
-    transform: translateY(-50%);
+    .csflex;
+    .logo {
+      width: 1.8rem;
+      overflow: hidden;
+      position: relative;
+      &:after {
+        content: '|';
+        font-size: 0.3rem;
+        color: #ccc;
+        position: absolute;
+        top: 50%;
+        right: 3px;
+        transform: translateY(-50%);
+      }
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .broadcast-box {
+      height: 0.9rem;
+      overflow: hidden;
+      line-height: 0.9rem;
+      li {
+        width: 100%;
+        height: 100%;
+        a {
+          display: inline-block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
   }
-
-  img {
-    display: block;
-    width: 100%;
-  }
-
-  }
-  .broadcast-box {
-    height: 0.9rem;
-    overflow: hidden;
-    line-height: 0.9rem;
-
-  li {
-    width: 100%;
-    height: 100%;
-
-  a {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-  }
-
-  }
-  }
-  }
-  .fade-enter-active, .fade-leave-active {
+  
+  .fade-enter-active,
+  .fade-leave-active {
     transition: opacity 1s
   }
-
-  .fade-enter, .fade-leave-active {
+  
+  .fade-enter,
+  .fade-leave-active {
     opacity: 0
   }
+
 </style>

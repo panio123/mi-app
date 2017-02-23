@@ -26,23 +26,23 @@
 </script>
 <style lang="less">
   @import '../../assets/css/constructor.less';
-
   .list_one_type2 {
-  .box{
-  .ccflex;
-  .info,img {
-    width: 3.6rem;
-    height: 3.6rem;
-  }
-  .info{
-    padding: 1rem 0.3rem;
-    h5{
-      -webkit-line-clamp: 2;
-      white-space: normal;
-      margin-bottom: 0.2rem;
+    .box {
+      .ccflex;
+      .info,
+      img {
+        width: 3.6rem;
+        height: 3.6rem;
+      }
+      .info {
+        padding: 1rem 0.3rem;
+        h5 {
+          -webkit-line-clamp: 2;
+          white-space: normal;
+          margin-bottom: 0.2rem;
+        }
+      }
     }
   }
-  }
 
-  }
 </style>
