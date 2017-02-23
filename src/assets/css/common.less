@@ -13,25 +13,57 @@ body {
   font-size: @baseFontSize;
   color: @baseFontColor;
 }
-html, body, h1, h2, h3,h4,h5,h6,h7,p, dl, dd, ol, ul, th, td, form, fieldset, input, button, textarea {
+
+html, body, h1, h2, h3, h4, h5, h6, h7, p, dl, dd, ol, ul, th, td, form, fieldset, input, button, textarea {
   margin: 0;
   padding: 0;
   font-weight: normal;
   font-style: normal;
 }
-a{
+
+a {
   text-decoration: none;
   color: inherit;
 }
-div{
+
+div {
   box-sizing: border-box;
 }
-li{
+
+li {
   list-style-type: none;
 }
-img{
+
+img {
   display: block;
   width: 100%;
 }
 
-
+.product-list-info {
+  h4 {
+    font-size: .28rem;
+    color: rgba(0, 0, 0, .87);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  h5 {
+    margin-top: .06rem;
+    font-size: .23rem;
+    line-height: .3rem;
+    color: rgba(0, 0, 0, .54);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  span {
+    font-size: .32rem;
+    color: #ff6000;
+    margin-top: .08rem;
+    &:before {
+      content: "￥";
+      font-size: .2rem;
+      margin-right: .05rem;
+    }
+  }
+}

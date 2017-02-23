@@ -18,6 +18,7 @@
         <vue-line v-else-if="section.view_type === 'divider_line'" :height="section.body.line_height" :bgcolor="section.body.line_color"></vue-line>
         <vue-auto-img v-else-if="section.view_type === 'cells_auto_fill'" :list="section.body"></vue-auto-img>
         <vue-list-two v-else-if="section.view_type === 'list_two_type1'" :list="section.body.items"></vue-list-two>
+        <vue-list-one v-else-if="section.view_type === 'list_one_type2'" :list="section.body.items"></vue-list-one>
         <div v-else-if="section.view_type === 'list_action_title'" class="list_action_title">
           <a>
             {{section.body.items[0].action_title}}>
@@ -41,6 +42,7 @@
   import VueLine from 'components/home/line.vue'
   import VueAutoImg from 'components/home/autoImg.vue'
   import VueListTwo from 'components/home/listTwo.vue'
+  import VueListOne from 'components/home/listOne.vue'
   import VueBackTop from 'components/common/backTop.vue'
   export default {
     name: 'home',
@@ -50,6 +52,7 @@
       VueLine,
       VueAutoImg,
       VueListTwo,
+      VueListOne,
       VueBackTop
     },
     data() {
