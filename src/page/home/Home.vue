@@ -1,5 +1,5 @@
 <template>
-  <div class="page-wrap" id="home-page">
+  <div class="page-wrap has-footer" id="home-page">
     <div class="home-header-wrap" :style="{background:'rgba(229, 131, 59,' + bgColor + ')'}">
       <div class="logo">
         <img src="http://m.mi.com/component/header/img/logo_e6453b2.png" alt="logo">
@@ -29,6 +29,7 @@
       </div>
     </div>
     <vue-back-top :show="backTopShow"></vue-back-top>
+    <vue-footer :active="'home'"></vue-footer>
   </div>
 </template>
 <script>
@@ -41,6 +42,7 @@
   import VueListOne from 'components/home/listOne.vue'
   import VueListOne12 from 'components/home/listOne12.vue'
   import VueBackTop from 'components/common/backTop.vue'
+  import VueFooter from 'components/common/footer.vue'
   export default {
     name: 'home',
     components: {
@@ -51,7 +53,8 @@
       VueListTwo,
       VueListOne,
       VueListOne12,
-      VueBackTop
+      VueBackTop,
+      VueFooter
     },
     data() {
       return {

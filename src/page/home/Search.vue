@@ -1,9 +1,9 @@
 <template>
   <div class="page-wrap has-header search-page">
     <div class="header">
-      <span class="iconfont icon-shouye" v-link="'home'"></span>
+      <span class="iconfont icon-home" v-link="'home'"></span>
       <input type="text" v-model="txt">
-      <span class="iconfont icon-sousuo"></span>
+      <span class="iconfont icon-search"></span>
     </div>
     <div class="content">
       <div class="title">热门搜索</div>
@@ -15,7 +15,7 @@
           {{item.word}}
         </li>
       </ul>
-      <ul class="word-list" v-show="wordList.length">
+      <ul class="word-list" v-show="txt">
         <li v-for="item in wordList" v-link="{name:'product',query:{product_id:item.action.extra.commodityId}}">
           {{item.keyword}}
         </li>
@@ -41,7 +41,7 @@
       txt:function(val){
         let me = this;
         console.log(val);
-        if(val){
+        if(!me.wordList.length && val){
           me.getWordList();
         }
       }
@@ -81,8 +81,6 @@
       background: #F5F5F5;
       .iconfont {
         padding: 0 0.2rem 0 0.1rem;
-        font-size: .6rem;
-        line-height: .5rem;
         color: #999;
       }
       input {
