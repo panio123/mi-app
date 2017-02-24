@@ -27,18 +27,6 @@
           </a>
         </div>
       </div>
-      <div class="section-box" v-for="section in sectionsList2">
-        <vue-broadcast v-if="section.view_type === 'list_broadcast'" :list="section.body.items" :logo="section.body.title_logo_url"></vue-broadcast>
-        <vue-line v-else-if="section.view_type === 'divider_line'" :height="section.body.line_height" :bgcolor="section.body.line_color"></vue-line>
-        <vue-auto-img v-else-if="section.view_type === 'cells_auto_fill'" :list="section.body"></vue-auto-img>
-        <vue-list-two v-else-if="section.view_type === 'list_two_type1'" :list="section.body.items"></vue-list-two>
-        <vue-list-one12 v-else-if="section.view_type === 'list_one_type12'" :list="section.body.items"></vue-list-one12>
-        <div v-else-if="section.view_type === 'list_action_title'" class="list_action_title">
-          <a>
-            {{section.body.items[0].action_title}}>
-          </a>
-        </div>        
-      </div>
     </div>
     <vue-back-top :show="backTopShow"></vue-back-top>
   </div>
@@ -135,7 +123,6 @@
     },
     created(){
       this.getList();
-      this.getList2();
     },
     mounted(){
       document.addEventListener('scroll',this.listenScroll);
