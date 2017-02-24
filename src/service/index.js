@@ -7,7 +7,8 @@ const service = {
   homeList: Vue.resource('static/json/home.json'),
   homeList2: Vue.resource('static/json/home2.json'),
   search_default: Vue.resource('static/json/search_default.json'),
-  word_list: Vue.resource('static/json/word_list.json')
+  word_list: Vue.resource('static/json/word_list.json'),
+  category:Vue.resource('static/json/category.json')
 };
 
 export default service

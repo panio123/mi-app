@@ -37,7 +37,7 @@
   .back-top-wrap{
     width:0.8rem;
     position: fixed;
-    bottom: 1rem;
+    bottom: 1.3rem;
     right: 0.5rem;
     overflow: hidden;
     -webkit-border-radius:50%;

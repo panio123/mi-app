@@ -5,7 +5,8 @@ let router = new Router();
 export default {
   //页面返回(后退)指令
   //<div v-back>next page</div>//直接返回
-  //<div v-back="function">next page</div>//如果传入一个函数,会在返回前执行此函数,且此函数返回true时,才进行返回操作
+  //<div v-back="function">next page</div>
+  //如果传入一个函数,会在返回前执行此函数,且此函数回调参数为true时,才进行返回操作，因为是采用回调方式，所以可以在返回前做数据请求之类的异步操作
 
   back: {
     inserted(el, binding) {
