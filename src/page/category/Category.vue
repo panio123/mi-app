@@ -7,7 +7,7 @@
         <vue-auto-img v-else-if="section.view_type === 'cells_auto_fill'" :list="section.body"></vue-auto-img>
         <div class="category-title" v-else-if="section.view_type === 'category_title'">{{section.body.category_name}}</div>
         <ul class="category-group" v-else-if="section.view_type === 'category_group'">
-          <li v-for="item in section.body.items">
+          <li v-for="item in section.body.items" v-link="{name:'category_list'}">
             <img :src="item.img_url" alt="item.product_name">
             <h4>{{item.product_name}}</h4>
           </li>

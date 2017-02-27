@@ -1,5 +1,4 @@
-import Router from 'vue-router'
-let router = new Router();
+import router from '../router';
 
 
 export default {
@@ -15,11 +14,11 @@ export default {
         if (func && func.length == 1 && typeof func == 'function') {
           func((data) => {
             if (data === true) {
-              window.history.back();
+              router.back();
             }
           });
         } else {
-          window.history.back();
+              router.back();
         }
       });
     }
@@ -33,6 +32,7 @@ export default {
     inserted(el, binding) {
       el.addEventListener('click', function () {
         router.push(binding.value);
+        // console.log(binding.value)
       });
     }
   }

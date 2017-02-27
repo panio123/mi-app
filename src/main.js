@@ -12,7 +12,7 @@ import directives from'./directive'
 for(let key in directives){
     Vue.directive(key,directives[key]);
 }
-new Vue({
+window.App = new Vue({
   el: '#app',
   router,
   template: '<App/>',

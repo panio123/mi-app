@@ -1,7 +1,7 @@
 <template>
   <header>
     <slot name="left" v-if="leftBtnShow">
-      <span class="iconfont icon-backlight"></span>
+      <span class="iconfont icon-backlight" v-back></span>
     </slot>
     <h3>
       <slot></slot>

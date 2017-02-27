@@ -70,12 +70,15 @@ textarea{
   }
 }
 .product-list-info {
+  overflow: hidden;
   h4 {
     font-size: .28rem;
     color: rgba(0, 0, 0, .87);
     white-space: nowrap;
     overflow: hidden;
+    word-break: break-all;
     text-overflow: ellipsis;
+    max-width: 100%;
   }
   h5 {
     margin-top: .06rem;
@@ -84,7 +87,10 @@ textarea{
     color: rgba(0, 0, 0, .54);
     white-space: nowrap;
     overflow: hidden;
+    word-break: break-all;
     text-overflow: ellipsis;
+    margin-bottom: 0.2rem;
+    max-width: 100%;
   }
   span {
     font-size: .32rem;

@@ -39,7 +39,6 @@
         h5 {
           -webkit-line-clamp: 2;
           white-space: normal;
-          margin-bottom: 0.2rem;
         }
       }
     }

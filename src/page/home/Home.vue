@@ -141,6 +141,7 @@
 <style lang="less">
 /*http://img01.mifile.cn/m/source/img/milogo.png*/
 /*http://m.mi.com/component/footer/img/spr1_5b2e09c.png*/
+
   @import '../../assets/css/constructor.less';
   .home-header-wrap {
     .ccflex;
