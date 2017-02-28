@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header class="flex flex_a_c flex_j_a">
     <slot name="left" v-if="leftBtnShow">
       <span class="iconfont icon-backlight" v-back></span>
     </slot>
@@ -31,14 +31,11 @@
   }
 </script>
 <style lang="less">
-  @import '../../assets/css/constructor.less';
   @import '../../assets/css/config.less';
   header {
-    .ccflex;
     text-align: center;
     height: .84rem;
     border-bottom: 1px solid @baseColorWhite;
-    justify-content: space-around;
     background: @baseBGColorHG;
     color: @baseFontColorH;
     span {

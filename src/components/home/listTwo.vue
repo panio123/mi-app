@@ -1,6 +1,6 @@
 <template>
   <div class="list_two_type1">
-    <div class="list-box" v-for="item in list">
+    <div class="flex flex_v flex_a_s flex_j_c list-box" v-for="item in list">
       <img :src="item.img_url" alt="item.product_name">
       <div class="product-list-info list-box-bottom">
         <h4>{{item.product_name}}</h4>
@@ -25,10 +25,7 @@
   }
 </script>
 <style lang="less">
-  @import '../../assets/css/constructor.less';
   .list-box {
-    .scflex;
-    .vflex;
     width: 3.6rem;
     height: auto;
     float: left;

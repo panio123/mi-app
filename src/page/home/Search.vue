@@ -1,8 +1,8 @@
 <template>
   <div class="page-wrap has-header search-page">
-    <div class="header">
+    <div class="flex flex_a_c flex_v_c header">
       <span class="iconfont icon-home" v-link="'home'"></span>
-      <input type="text" v-model="txt">
+      <input type="text" v-model="txt" class="flex_g_1">
       <span class="iconfont icon-search"></span>
     </div>
     <div class="content">
@@ -69,10 +69,8 @@
   }
 </script>
 <style lang="less">
-  @import '../../assets/css/constructor.less';
   .search-page {
     .header {
-      .ccflex;
       height: 1rem;
       width: 100%;
       position: fixed;
@@ -88,9 +86,6 @@
         border: 1px solid #ccc;
         padding: .1rem .2rem;
         background: #FFF;
-        -webkit-box-flex: 1;
-        box-flex: 1;
-        flex-grow: 1;
       }
     }
     .title {

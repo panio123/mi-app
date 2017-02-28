@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="./vue.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div ref="aaa"></div>
+    <my-tab :my-txt="test"></my-tab>
+    {{test}}
+  </div>
+</body>
+<script src="./component.js"></script>
+<script>
+
+Vue.component(testComponent.name,testComponent);
+
+   var app =  new Vue({
+        el:'#app',
+        data:{
+            test:1
+        },
+        methods:{
+            add:function(){
+                this.test++;
+            }
+        },
+        computed:{
+            add2:function(){
+                
+            }
+        },
+        created:function(){
+            // this.add();
+            
+        },
+        mounted:function(){
+             console.log(JSON.stringify(this.$refs));
+            console.log(this.$el);
+        }
+
+    })
+</script>
+
+</html>

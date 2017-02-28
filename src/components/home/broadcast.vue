@@ -1,5 +1,5 @@
 <template>
-  <div class="list_broadcast">
+  <div class="flex flex_a_s list_broadcast">
     <div class="logo" v-if="logo">
       <img :src="logo">
     </div>
@@ -47,9 +47,7 @@
   }
 </script>
 <style lang="less">
-  @import '../../assets/css/constructor.less';
   .list_broadcast {
-    .csflex;
     .logo {
       width: 1.8rem;
       overflow: hidden;

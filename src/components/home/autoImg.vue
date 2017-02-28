@@ -1,9 +1,9 @@
 <template>
   <div class="cells_auto_fill" :style="parseStyle(list)">
     <div class="cells-item" v-for="item in list.items" :style="parseStyle(item)">
-      <a>
+      <router-link :to="{name:'product',query:{id:4484}}">
         <img :src="item.img_url">
-      </a>
+      </router-link>
     </div>
   </div>
 </template>
@@ -32,7 +32,6 @@
   }
 </script>
 <style lang="less">
-  @import '../../assets/css/constructor.less';
   .cells-item{
     position: absolute;
   }

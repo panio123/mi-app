@@ -13,4 +13,5 @@ export default {
 <style lang="less">
   @import 'assets/css/config.less';
   @import 'assets/css/common.less';
+  @import 'assets/css/constructor.less';
 </style>

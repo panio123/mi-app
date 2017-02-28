@@ -1,6 +1,6 @@
 <template>
   <div class="page-wrap has-footer" id="home-page">
-    <div class="home-header-wrap" :style="{background:'rgba(229, 131, 59,' + bgColor + ')'}">
+    <div class="flex flex_a_c flex_j_c home-header-wrap" :style="{background:'rgba(229, 131, 59,' + bgColor + ')'}">
       <div class="logo">
         <img src="http://m.mi.com/component/header/img/logo_e6453b2.png" alt="logo">
       </div>
@@ -142,9 +142,7 @@
 /*http://img01.mifile.cn/m/source/img/milogo.png*/
 /*http://m.mi.com/component/footer/img/spr1_5b2e09c.png*/
 
-  @import '../../assets/css/constructor.less';
   .home-header-wrap {
-    .ccflex;
     width: 100%;
     position: fixed;
     top: 0;

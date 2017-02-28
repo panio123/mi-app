@@ -1,6 +1,6 @@
 <template>
   <div id="footer">
-    <ul>
+    <ul class="flex flex_a_c flex_j_a">
       <li v-for="item in list" :class="{'active':item.active}" v-link="item.path">
         <div class="iconfont" :class="[item.icon,item.active === true?item._icon:'']"></div>
         <span>{{item.label}}</span>
@@ -59,7 +59,6 @@
 </script>
 <style lang="less">
   @import '../../assets/css/config.less';
-  @import '../../assets/css/constructor.less';
   #footer {
     position: fixed;
     bottom: 0;
@@ -69,10 +68,7 @@
     height: 0.9rem;
     border-top: 1px solid #e0e0e0;
     ul{
-      .ccflex;
       height:100%;
-      text-align: center;
-      justify-content: space-around;
       color:@baseColorHG;
       .active{
         color: @baseColorY;

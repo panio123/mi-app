@@ -1,7 +1,7 @@
 <template>
   <div class="page-wrap category-list">
     <vue-header :rightBtnShow="true">商品分类<span v-link="'search'" class="iconfont icon-search" slot="right"></span></vue-header>
-    <div class="box" v-for="item in list" v-link="{name:'product',query:{id:item.id}}">
+    <div class="flex flex_a_c flex_j_s box" v-for="item in list" v-link="{name:'product',query:{id:item.id}}">
       <div class="img">
         <img :src="item.img_url" alt="item.name">
       </div>
@@ -40,9 +40,7 @@ import service from 'service'
 </script>
 <style lang="less">
   @import '../../assets/css/config.less';
-  @import '../../assets/css/constructor.less';
   .category-list .box {
-    .csflex;
     margin-bottom: 0.05rem;
     position: relative;
     &:after {
@@ -59,10 +57,6 @@ import service from 'service'
     }
     .info {
       padding: 0 0.3rem;
-      .double-line {
-        .doubleline;
-        -webkit-box-orient: vertical;
-      }
     }
   }
 
