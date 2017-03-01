@@ -6,6 +6,8 @@ const Product = r => require.ensure([], () => r(require('../page/home/Product.vu
 const Category = r => require.ensure([], () => r(require('../page/category/Category.vue')), 'category');
 const CategoryList = r => require.ensure([], () => r(require('../page/category/List.vue')), 'category');
 
+const Cart = r => require.ensure([], () => r(require('../page/Cart.vue')), 'cart');
+
 const list = {
   routes: [{
     path: '/',
@@ -36,6 +38,11 @@ const list = {
     name:'product',
     meta:'小米商城-商品详情',
     component:Product
+  },{
+    path:'/cart',
+    name:'cart',
+    meta:'小米商城-购物车',
+    component:Cart
   }]
 };
 export default list;
