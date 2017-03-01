@@ -16,9 +16,10 @@ export default new Vuex.Store({
       return state._loginStatus;
     },
     getCartList: state => {
-      if (state._loginStatus === true) {
-        return state._cartList;
+      if (state._loginStatus !== true) {
+        return {};
       }
+      return state._cartList;
     }
   },
   mutations: {

@@ -29,7 +29,7 @@
       <ul>
         <li class="item" v-for="item in getCartList.items">
           <div class="flex flex_a_c flex_j_b box">
-            <div @click="selectGood(item)" class="check-box">
+            <div @click="selectGood(item)" class="check-box" v-if="item.showType === 'buy'">
               <i class="iconfont icon-round" v-show="!item.is_available"></i>
               <i class="iconfont icon-roundcheckfill" v-show="item.is_available"></i>
             </div>
@@ -45,9 +45,30 @@
           </div>
         </li>
       </ul>
+      <div class="tips">温馨提示：产品是否购买成功，以最终下单为准，请尽快结算</div>
+      <ul class="bargain">
+        <li class="flex flex_a_c flex_j_b" v-for="item in getCartList.bargains">
+          <div class="check">
+            <span class="iconfont icon-square" v-show="!item.checked"></span>
+            <span class="iconfont icon-squarecheck" v-show="item.checked"></span>
+          </div>
+          <div class="flex_g_1 title">{{item.bargain_name}}</div>
+          <div class="btn">
+            <span class="iconfont icon-more"></span>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
-  <vue-footer :active="'cart'"></vue-footer>
+  <vue-footer :active="'cart'" v-if="!getCartList"></vue-footer>
+  <footer class="flex flex_a_c flex_j_b" v-if="getCartList">
+    <div class="price">
+      <p>共{{getCartList.totalSelGoods}}件，金额：</p>
+      <strong>{{getCartList.productMoneySelGoods}}<em>元</em></strong>
+    </div>
+    <div class="btn buy">继续购物</div>
+    <div class="btn pay">去结算</div>
+  </footer>
   </div>
 </template>
 <script>
@@ -197,9 +218,79 @@ import VueCountPlugin from 'components/cart/countPlugin.vue'
             .del-btn {
               font-size: .4rem;
               color: @baseColorHG;
-              margin-right:0.25rem;
+              margin-right: 0.25rem;
             }
           }
+        }
+      }
+      .tips {
+        font-size: .22rem;
+        color: @baseColorHG;
+        border-bottom: 0.2rem solid @baseBRColor;
+        padding: .2rem .3rem;
+      }
+      .bargain {
+        background: #fff;
+        li {
+          padding-left:.3rem;
+          height: .8rem;
+          line-height: .8rem;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          border-bottom: 1px solid @baseBRColor;
+          .check {
+            margin: 0 0.1rem;
+            span {
+              font-size: 0.3rem;
+              color: @baseColorY;
+            }
+          }
+          .btn {
+            border-left: 1px solid @baseBRColor;
+            padding:0 0.2rem;
+            width: .8rem;
+            color:@baseColorWhite;
+          }
+        }
+      }
+    }
+    footer {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 1rem;
+      border-top: 1px solid @baseBRColor;
+      background: #FFF;
+      font-size: .26rem;
+      color: @baseColorHG;
+      div {
+        width: 2.4rem;
+        text-align: center;
+      }
+      .btn {
+        height: 1rem;
+        line-height: 1rem;
+      }
+      .buy {
+        background: @baseBGColorHG;
+        color: @baseFontColor;
+        border-left: 1px solid @baseBGColorHG;
+        border-right: 1px solid @baseBGColorHG;
+      }
+      .pay {
+        background: @baseColorY;
+        color: #fff;
+      }
+      .price strong {
+        font-size: .4rem;
+        color: @baseColorY;
+        margin-right: .2em;
+        em {
+          font-style: normal;
+          font-size: 0.26rem;
+          color: @baseColorHG;
         }
       }
     }
