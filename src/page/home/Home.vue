@@ -5,10 +5,11 @@
         <img src="http://m.mi.com/component/header/img/logo_e6453b2.png" alt="logo">
       </div>
       <div class="search-box">
-          <router-link to="search">搜索商品名称</router-link>
+        <router-link to="search">搜索商品名称</router-link>
       </div>
       <div class="login">
-        <img src="http://m.mi.com/component/header/img/user_0319ba0.png" alt="login">
+        <img src="http://m.mi.com/component/header/img/user_0319ba0.png" alt="user" v-link="'my'" v-if="getLoginStatus">
+        <span v-if="!getLoginStatus" @click="login">登录</span>
       </div>
     </div>
     <div class="home-swiper-box">
@@ -66,6 +67,9 @@
       }
     },
     methods: {
+      login(){
+        this.$store.dispatch('login');
+      },
       getImgList(data){
         let me = this;
         data.forEach(item=> {
@@ -124,6 +128,11 @@
           }
       }
     },
+    computed:{
+      getLoginStatus(){
+        return this.$store.getters.getLoginStatus;
+      }
+    },
     created(){
       this.getList();
     },
@@ -139,9 +148,9 @@
 </script>
 
 <style lang="less">
-/*http://img01.mifile.cn/m/source/img/milogo.png*/
-/*http://m.mi.com/component/footer/img/spr1_5b2e09c.png*/
-
+  /*http://img01.mifile.cn/m/source/img/milogo.png*/
+  /*http://m.mi.com/component/footer/img/spr1_5b2e09c.png*/
+  
   .home-header-wrap {
     width: 100%;
     position: fixed;
@@ -158,8 +167,16 @@
         margin: auto;
       }
     }
-    .login img {
-      width: 0.3rem;
+    .login {
+      img {
+        width: 0.3rem;
+      }
+      span {
+        font-size: .28rem;
+        text-align: center;
+        color: #fff;
+        margin: 0 .22rem;
+      }
     }
     .search-box {
       width: 5.2rem;
@@ -175,7 +192,7 @@
         color: rgba(0, 0, 0, 0.3);
         padding-left: 0.55rem;
         padding-top: 0.1rem;
-        box-sizing:border-box;
+        box-sizing: border-box;
         width: 100%;
         height: 100%;
         display: inline-block;

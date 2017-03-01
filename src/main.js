@@ -4,6 +4,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import store from './store'
 import VueResource from 'vue-resource'
 import directives from'./directive'
 
@@ -15,6 +16,7 @@ for(let key in directives){
 window.App = new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: {App},
   created(){

@@ -6,7 +6,7 @@ const productCode = [3525, 4082, 4484, 4520, 4694, 4696, 4697];
 const service = {
   getProduct: function (id) {
     let ok,
-        _id;
+      _id;
     productCode.forEach(code => {
       if (id == code) {
         ok = true;
@@ -25,7 +25,8 @@ const service = {
   word_list: Vue.resource('static/json/word_list.json'),
   category: Vue.resource('static/json/category.json'),
   category_list: Vue.resource('static/json/category_list.json'),
-  recommend: Vue.resource('static/json/recommendBlank.json')
+  recommend: Vue.resource('static/json/recommendBlank.json'),
+  cart_list: Vue.resource('static/json/cart.json')
 };
 
 export default service
