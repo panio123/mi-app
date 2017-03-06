@@ -64,8 +64,10 @@ export default new Vuex.Store({
         p = n * price;
       payload.item.num = payload.num;
       payload.item.subtotal += p;
-      state._cartList.totalSelGoods += n;
-      state._cartList.productMoneySelGoods += p;
+      if (payload.item.is_available) {
+        state._cartList.totalSelGoods += n;
+        state._cartList.productMoneySelGoods += p;
+      }
       saveCartList(state._cartList);
     },
     createdNewGoods: (state, newGoods) => {
@@ -102,7 +104,7 @@ export default new Vuex.Store({
     cartList: context => {
       if (context.state._loginStatus === true && !context.state._cartList) {
         let list = window.localStorage.getItem('mi_app_cart_list');
-        if(list){
+        if (list) {
           context.commit('getCartList', JSON.parse(list));
           return;
         }
