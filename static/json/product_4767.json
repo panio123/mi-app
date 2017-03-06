@@ -1,0 +1,561 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "advertising": [{
+      "body": {
+        "items": [{
+          "action": {
+            "log_code": "30000002180074001",
+            "login": false,
+            "m_type": "product",
+            "path": "",
+            "stat": ""
+          },
+          "img_url": "//i8.mifile.cn/v1/a1/6b5e2d95-f5aa-37b2-2b2e-dd327808e799.webp",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/6b5e2d95-f5aa-37b2-2b2e-dd327808e799.webp"
+        }]
+      },
+      "sub_view_type": 0,
+      "view_type": "mad"
+    }],
+    "all_is_sale": 1,
+    "apply_to": [],
+    "body_list": [{
+      "name": "概述",
+      "show_type": "config",
+      "tab_content": [{
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/114e6b04-10a0-0e63-a7c8-ea8b9f172da4.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/114e6b04-10a0-0e63-a7c8-ea8b9f172da4.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/a050e450-e4cc-cf10-fcc0-b4eac9e336d6.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/a050e450-e4cc-cf10-fcc0-b4eac9e336d6.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/feef6a62-8a3e-1f5b-05c1-ce890aad39f2.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/feef6a62-8a3e-1f5b-05c1-ce890aad39f2.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/ed86c2d0-d0e9-111d-e708-a8968da5f434.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/ed86c2d0-d0e9-111d-e708-a8968da5f434.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/2767f150-84fa-badb-927c-12ff07eea148.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/2767f150-84fa-badb-927c-12ff07eea148.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/6c1bf70e-4523-1559-7964-16512671ee2b.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/6c1bf70e-4523-1559-7964-16512671ee2b.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/534895c7-fa93-7467-1d47-06d6e03dc6d4.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/534895c7-fa93-7467-1d47-06d6e03dc6d4.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/69442935-d285-d7bf-51e5-7c2545749738.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/69442935-d285-d7bf-51e5-7c2545749738.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/71dc09fa-c44f-4cce-d797-f41aebe04c4e.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/71dc09fa-c44f-4cce-d797-f41aebe04c4e.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/346a0602-1dc7-390a-0411-8edeb12ba73a.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/346a0602-1dc7-390a-0411-8edeb12ba73a.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/9933412e-9ade-5cc5-f5fc-260b6a6b6dda.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/9933412e-9ade-5cc5-f5fc-260b6a6b6dda.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/6a206be2-0da3-cfd4-35d2-c335f61fec1d.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/6a206be2-0da3-cfd4-35d2-c335f61fec1d.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/35173e0d-26e1-38f9-0296-fadfae1ea882.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/35173e0d-26e1-38f9-0296-fadfae1ea882.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/14c9ad62-09a6-2d6e-d29c-7b364b6c0904.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/14c9ad62-09a6-2d6e-d29c-7b364b6c0904.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/e2171e44-9e57-6094-6d5c-3201546f17e9.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/e2171e44-9e57-6094-6d5c-3201546f17e9.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/73d17ff0-2c0f-78d5-6c7f-c2d3ea934517.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/73d17ff0-2c0f-78d5-6c7f-c2d3ea934517.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }],
+      "view_type": "desc_tabs_view"
+    }, {
+      "name": "参数",
+      "show_type": "config",
+      "tab_content": [{
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/4020b18f-c434-1774-8f9e-a8163f27e602.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/4020b18f-c434-1774-8f9e-a8163f27e602.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/bd711590-67a1-7632-1d82-4d9033890b7b.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/bd711590-67a1-7632-1d82-4d9033890b7b.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/4bf63cfa-788d-79d1-41ad-419ffa5f433a.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/4bf63cfa-788d-79d1-41ad-419ffa5f433a.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/689e0212-6415-36f9-113a-17661eb82263.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/689e0212-6415-36f9-113a-17661eb82263.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/3a9ef0d6-b39f-0b79-0cb8-14484d2ee4be.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/3a9ef0d6-b39f-0b79-0cb8-14484d2ee4be.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/3d191231-49f8-bd04-a988-76bf2cef26d5.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/3d191231-49f8-bd04-a988-76bf2cef26d5.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/eacdce2c-5739-cc20-10d1-43b28d5f24b1.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/eacdce2c-5739-cc20-10d1-43b28d5f24b1.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/57c02269-439a-cf6c-e25a-c6949659d78b.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/57c02269-439a-cf6c-e25a-c6949659d78b.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/9505e32e-f2c2-1b2b-cdfb-d69f4670b331.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/9505e32e-f2c2-1b2b-cdfb-d69f4670b331.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/2ea669cf-7614-c3b6-969b-afb52d0115e5.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/2ea669cf-7614-c3b6-969b-afb52d0115e5.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/580ad139-b593-8518-1da6-b7410c540e38.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/580ad139-b593-8518-1da6-b7410c540e38.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/90a0a115-42a9-e928-9b79-1365323df365.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/90a0a115-42a9-e928-9b79-1365323df365.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/a624b27e-8164-97b6-e9db-05ffc8a35340.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/a624b27e-8164-97b6-e9db-05ffc8a35340.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/835f96f9-4ca9-c147-c493-7c1c9c026f99.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/835f96f9-4ca9-c147-c493-7c1c9c026f99.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/c6e85b05-28eb-c0b4-c137-cb6d82e87e8b.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/c6e85b05-28eb-c0b4-c137-cb6d82e87e8b.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/42f06c5a-ac9b-95d7-1f4d-f94d7c07a5e0.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/42f06c5a-ac9b-95d7-1f4d-f94d7c07a5e0.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/98264854-1a69-ad56-db14-c0bf0d739b60.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/98264854-1a69-ad56-db14-c0bf0d739b60.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/244437a4-efe7-ab9c-a743-957026ee6c0d.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/244437a4-efe7-ab9c-a743-957026ee6c0d.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/459ea413-00b2-90bc-fda9-72437a968d04.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/459ea413-00b2-90bc-fda9-72437a968d04.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }],
+      "view_type": "desc_tabs_view"
+    }],
+    "commodity_list": [{
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1170100022",
+      "custom_name": "红米4 高配 3GB+32GB 金色",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1170100022",
+        "custom_name": "红米4 高配 3GB+32GB 金色",
+        "goods_id": "2170100014",
+        "is_cos": true,
+        "is_hd_bigtap": false,
+        "is_normal_value": 0,
+        "is_sale": "1",
+        "market_price": "999.00",
+        "name": "红米4 高配 3GB+32GB 金色",
+        "now_sales_type": "common",
+        "price": "999.00",
+        "sales_type": ["common"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "1487901600",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "32GB",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "",
+      "icon_name": "金色",
+      "icon_webp": "",
+      "img_url": "http://i8.mifile.cn/v1/a1/37800670-70b4-ba94-a5e7-708b2fcb2b57.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/37800670-70b4-ba94-a5e7-708b2fcb2b57.webp",
+      "is_batched": "0",
+      "is_cos": true,
+      "is_sale": "1",
+      "name": "红米4 高配 3GB+32GB 金色",
+      "sales_type": [],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "香槟金",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }, {
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1170100021",
+      "custom_name": "红米4 高配 3GB+32GB 银白",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1170100021",
+        "custom_name": "红米4 高配 3GB+32GB 银白",
+        "goods_id": "2170100013",
+        "is_cos": true,
+        "is_hd_bigtap": false,
+        "is_normal_value": 0,
+        "is_sale": "1",
+        "market_price": "999.00",
+        "name": "红米4 高配 3GB+32GB 银白",
+        "now_sales_type": "common",
+        "price": "999.00",
+        "sales_type": ["common"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "1487901600",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "32GB",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "",
+      "icon_name": "银白",
+      "icon_webp": "",
+      "img_url": "http://i8.mifile.cn/v1/a1/dfd4f558-d928-86b8-8d29-33c13a026115.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/dfd4f558-d928-86b8-8d29-33c13a026115.webp",
+      "is_batched": "0",
+      "is_cos": true,
+      "is_sale": "1",
+      "name": "红米4 高配 3GB+32GB 银白",
+      "sales_type": [],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "白色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }, {
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1164200081",
+      "custom_name": "红米4 高配 3GB+32GB 灰色",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1164200081",
+        "custom_name": "红米4 高配 3GB+32GB 灰色",
+        "goods_id": "2164200043",
+        "is_cos": true,
+        "is_hd_bigtap": false,
+        "is_normal_value": 0,
+        "is_sale": "1",
+        "market_price": "999.00",
+        "name": "红米4 高配 3GB+32GB 灰色",
+        "now_sales_type": "common",
+        "price": "999.00",
+        "sales_type": ["common"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "1487901600",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "32GB",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "",
+      "icon_name": "灰色",
+      "icon_webp": "",
+      "img_url": "http://i8.mifile.cn/v1/a1/8ce1d174-d222-34c0-e6a0-6621cb83e70b.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/8ce1d174-d222-34c0-e6a0-6621cb83e70b.webp",
+      "is_batched": "0",
+      "is_cos": true,
+      "is_sale": "1",
+      "name": "红米4 高配 3GB+32GB 灰色",
+      "sales_type": [],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "灰色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }],
+    "gallery_img": ["http://i8.mifile.cn/v1/a1/cb72df9a-bc89-54c9-47af-b7b8efc146e2.webp", "http://i8.mifile.cn/v1/a1/5945bf7b-13f0-c792-65c5-1ca3ad87c2cf.webp", "http://i8.mifile.cn/v1/a1/d149d36b-ee17-15a7-bf43-91da86c30cbb.webp"],
+    "id": "4767",
+    "img_url": "http://i8.mifile.cn/v1/a1/dfd4f558-d928-86b8-8d29-33c13a026115.webp",
+    "is_batched": "0",
+    "market_price_max": "999.00",
+    "market_price_min": "999.00",
+    "name": "红米4 高配 3GB+32GB",
+    "price_max": "999.00",
+    "price_min": "999.00",
+    "product_desc": "2.5D 玻璃，金属一体化机身 / 4100mAh 大电量，超长续航 / 骁龙高性能处理器 / 支持隐私双系统 / 5英寸全高清屏幕 / 高速指纹识别",
+    "product_type": "common_goods",
+    "related_goods": [{
+      "commodity_id": 4095,
+      "commodity_list": ["1162900025"],
+      "image_url": "http://i8.mifile.cn/v1/a1/5747ce30-5f73-ec4a-ea5e-61483099b00c.jpg",
+      "name": "红米4 高配版 标准高透贴膜",
+      "price_max": "9.90",
+      "price_min": "9.90"
+    }, {
+      "commodity_id": 4096,
+      "commodity_list": ["1162900026", "1164400018"],
+      "image_url": "http://i8.mifile.cn/v1/a1/dc94c2bb-ccbf-1a92-42c6-ba7b7e9d3509.jpg",
+      "name": "红米4 高配版 翻盖保护套",
+      "price_max": "29.00",
+      "price_min": "29.00"
+    }, {
+      "commodity_id": 3682,
+      "commodity_list": ["1161800009", "1161800010"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1vPdjBjCT1RXrhCrK.jpg",
+      "name": "小米胶囊耳机",
+      "price_max": "69.00",
+      "price_min": "69.00"
+    }, {
+      "commodity_id": 3459,
+      "commodity_list": ["1161200012"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1C__gBmYv1RXrhCrK.jpg",
+      "name": "小米USB充电器（4口）",
+      "price_max": "69.00",
+      "price_min": "69.00"
+    }, {
+      "commodity_id": 2806,
+      "commodity_list": ["1154300036", "1154300037"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1n5W_BgLv1RXrhCrK.jpg",
+      "name": "小米小钢炮蓝牙音箱 2",
+      "price_max": "129.00",
+      "price_min": "129.00"
+    }, {
+      "commodity_id": 1.16390002e+09,
+      "commodity_list": [],
+      "image_url": "http://i8.mifile.cn/v1/a1/3563cadb-795d-2240-c83d-9aeedd67ff4e.jpg",
+      "name": "小米移动电源2 银色",
+      "price_max": "79.00",
+      "price_min": "79.00"
+    }],
+    "seo_description": "红米4 金属机身工艺，高配版采用骁龙625高性能处理器，标准版采用骁龙430处理器，搭载全新的MIUI 8系统。",
+    "seo_keywords": "红米4,红米4手机,红米手机4,小米红米4,小米商城",
+    "seo_title": "红米4 高配 3G+32GB_小米商城",
+    "spec_type": "mobile"
+  }
+}

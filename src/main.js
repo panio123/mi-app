@@ -7,7 +7,10 @@ import router from './router'
 import store from './store'
 import VueResource from 'vue-resource'
 import directives from'./directive'
+import  { LoadingPlugin,ToastPlugin } from 'vux'
 
+Vue.use(LoadingPlugin)
+Vue.use(ToastPlugin)
 
 //注册全局指令
 for(let key in directives){
@@ -20,6 +23,10 @@ window.App = new Vue({
   template: '<App/>',
   components: {App},
   created(){
-
+    let status = window.localStorage.getItem('mi_app_loginstatus');
+    if(status&&status === '1'){
+      this.$store.commit('login');
+      this.$store.dispatch('cartList');
+    }
   }
 });

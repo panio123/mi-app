@@ -10,7 +10,7 @@
     name: 'vue-count-plugin',
     props: {
       value:{
-        type:Number,
+        type:[Number,Object],
         default:0
       },
       max:{
@@ -39,6 +39,7 @@
     },
     watch:{
       val:function(newVal){
+        this.$emit('input',newVal,this.value);
         if(this.val >= this.max){
           this.maxStop = true;
           return;
@@ -51,7 +52,6 @@
         }else{
           this.maxStop = false;
         }
-        this.$emit('input',newVal);
       }
     },
     methods:{
@@ -69,7 +69,11 @@
       }
     },
     created(){
-      this.val = this.value;
+      if(typeof this.value === 'object'){
+        this.val = this.value.num;
+      }else{
+        this.val = this.value;
+      }
     }
   }
 </script>

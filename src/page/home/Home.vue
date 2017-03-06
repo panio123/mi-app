@@ -83,7 +83,7 @@
       parseUrl(action){
         let url;
         if (action.type === 'product') {
-          url = '#/product/' + action.path;
+          url = '/product/?id=' + action.path;
         } else if (action.type === 'url') {
           url = action.path;
         } else {

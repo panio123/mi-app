@@ -7,7 +7,7 @@
       <span class="go-login" @click="login">去登录<i class="iconfont icon-more"></i></span>
   </div>
   </div>
-  <div class="no-goods-wrap" v-if="!getCartList || !getLoginStatus">
+  <div class="no-goods-wrap" v-if="!getCartList || !getCartList.items.length || !getLoginStatus">
     <div class="flex flex_a_c flex_j_c no-goods">
       <span class="iconfont icon-Emptyshoppingcart"></span>
       <span class="empty-tips">购物车还是空的</span>
@@ -24,22 +24,22 @@
       </li>
     </ul>
   </div>
-  <div class="cart-wrap">
+  <div class="cart-wrap" v-if="getCartList && getCartList.items.length">
     <div class="cart-list">
       <ul>
-        <li class="item" v-for="item in getCartList.items">
+        <li class="item" v-for="(item,index) in getCartList.items">
           <div class="flex flex_a_c flex_j_b box">
-            <div @click="selectGood(item)" class="check-box" v-if="item.showType === 'buy'">
+            <div @click="selectGoods(item)" class="check-box" v-if="item.showType === 'buy'">
               <i class="iconfont icon-round" v-show="!item.is_available"></i>
               <i class="iconfont icon-roundcheckfill" v-show="item.is_available"></i>
             </div>
-            <img :src="item.image_url" :alt="item.short_name">
+            <img :src="item.image_url" :alt="item.short_name" v-link="{name:'product',query:{id:item.product_id}}">
             <div class="flex_g_1 info">
               <h4>{{item.short_name}}</h4>
               <h5>售价：{{item.price+'元 '}}合计：{{item.subtotal+'元'}}</h5>
               <div class="flex flex_a_c flex_j_b plugin">
-                <vue-count-plugin v-model="item.num" :disabled="!item.can_change_num" :max="item.buy_limit"></vue-count-plugin>
-                <span class="iconfont icon-delete_light del-btn" v-if="item.can_delete"></span>
+                <vue-count-plugin :value="item" @input="goodsNumChange" :disabled="!item.can_change_num" :max="item.buy_limit" :key="item.goodsId"></vue-count-plugin>
+                <span class="iconfont icon-delete_light del-btn" @click="delGoods(index)" v-if="item.can_delete"></span>
               </div>
             </div>
           </div>
@@ -60,13 +60,13 @@
       </ul>
     </div>
   </div>
-  <vue-footer :active="'cart'" v-if="!getCartList"></vue-footer>
-  <footer class="flex flex_a_c flex_j_b" v-if="getCartList">
+  <vue-footer :active="'cart'" v-if="!getCartList || !getCartList.items.length"></vue-footer>
+  <footer class="flex flex_a_c flex_j_b" v-if="getCartList && getCartList.items.length">
     <div class="price">
       <p>共{{getCartList.totalSelGoods}}件，金额：</p>
       <strong>{{getCartList.productMoneySelGoods}}<em>元</em></strong>
     </div>
-    <div class="btn buy">继续购物</div>
+    <div class="btn buy" v-link="'home'">继续购物</div>
     <div class="btn pay">去结算</div>
   </footer>
   </div>
@@ -95,8 +95,9 @@ import VueCountPlugin from 'components/cart/countPlugin.vue'
     },
     methods:{
       login(){
-        this.$store.dispatch('login');
-        this.$store.dispatch('cartList');
+        this.$store.dispatch('login').then(()=>{
+          this.$store.dispatch('cartList');
+        });
       },
       getRecommend(){
         let me = this;
@@ -105,8 +106,17 @@ import VueCountPlugin from 'components/cart/countPlugin.vue'
           me.recommendList = result.recom_list;
         })
       },
-      selectGood(item){
-        item.is_available = !item.is_available;
+      selectGoods(item){
+        this.$store.commit('checkGoods',item);
+      },
+      goodsNumChange(num,item){
+        this.$store.commit('changeGoodsNum',{item,num});
+      },
+      delGoods(index){
+        this.$store.commit('delGoods',index);
+      },
+      setActiveItem(item){
+        this.activeItem = item;
       }
     },
     computed:{

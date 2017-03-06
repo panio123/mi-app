@@ -37,7 +37,7 @@
     </div>
     <div class="flex flex_a_c flex_j_a footer">
       <span class="iconfont icon-home" v-link="'home'"></span>
-      <div class="flex_g_1 btn">立即购买</div>
+      <div class="flex_g_1 btn" @click="appendToCart">立即购买</div>
       <span class="iconfont icon-cart" v-link="'cart'"></span>
     </div>
     <vue-back-top :show="backTopShow"></vue-back-top>
@@ -64,7 +64,20 @@ import VueBackTop from 'components/common/backTop.vue'
         selectedSize:{}
       }
     },
+    computed:{
+      getLoginStatus(){
+        return this.$store.getters.getLoginStatus;
+      }
+    },
     methods:{
+      appendToCart(){
+        this.$store.dispatch('appendNewGoods',{
+          id:this.$route.query.id,
+          commodityId:this.selectedSize.commodity_id
+          }).then(()=>{
+          this.$router.push({name:'cart'});
+        });
+      },
       selectSize(item){
         let me = this;
         me.selectedSize.active = false;        

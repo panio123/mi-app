@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueResource from 'vue-resource'
 
 Vue.use(VueResource);
-const productCode = [3525, 4082, 4484, 4520, 4694, 4696, 4697];
+const productCode = [3525, 4082, 4484, 4520, 4694, 4696, 4697,2274,4767];
 const service = {
   getProduct: function (id) {
     let ok,
