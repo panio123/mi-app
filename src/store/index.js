@@ -4,8 +4,9 @@ import service from 'service'
 import {
   createdNewGoods,
   addGoods,
-  updateList
-} from './creatGoods'
+  updateList,
+  saveCartList
+} from './common'
 import {
   LoadingPlugin,
   ToastPlugin
@@ -46,15 +47,16 @@ export default new Vuex.Store({
       state._cartList = data;
     },
     checkGoods: (state, item) => {
-      if (item.is_available === true) {
-        state._cartList.totalSelGoods -= item.num;
-        state._cartList.productMoneySelGoods -= item.subtotal;
-      } else {
-        state._cartList.totalSelGoods += item.num;
-        state._cartList.productMoneySelGoods += item.subtotal;
-      }
+      // if (item.is_available === true) {
+      //   state._cartList.totalSelGoods -= item.num;
+      //   state._cartList.productMoneySelGoods -= item.subtotal;
+      // } else {
+      //   state._cartList.totalSelGoods += item.num;
+      //   state._cartList.productMoneySelGoods += item.subtotal;
+      // }
       item.is_available = !item.is_available;
-      state._cartList.productMoneySelGoods = new Number(state._cartList.productMoneySelGoods.toFixed(2)).valueOf();
+      updateList(state._cartList);
+      // state._cartList.productMoneySelGoods = new Number(state._cartList.productMoneySelGoods.toFixed(2)).valueOf();
     },
     changeGoodsNum: (state, payload) => {
       let price = new Number(payload.item.price),
@@ -64,13 +66,19 @@ export default new Vuex.Store({
       payload.item.subtotal += p;
       state._cartList.totalSelGoods += n;
       state._cartList.productMoneySelGoods += p;
+      saveCartList(state._cartList);
     },
     createdNewGoods: (state, newGoods) => {
       state._cartList.items.push(newGoods);
       updateList(state._cartList);
+      Vue.$vux.toast.show({
+        text: '添加成功',
+        position: 'bottom'
+      });
     },
     addGoods: (state, payload) => {
       addGoods(state._cartList, payload.item, payload.num);
+      saveCartList(state._cartList);
     },
     delGoods: (state, index) => {
       state._cartList.items.splice(index, 1);
@@ -91,11 +99,13 @@ export default new Vuex.Store({
       });
 
     },
-    logout: context => {
-      context.commit('logout');
-    },
     cartList: context => {
       if (context.state._loginStatus === true && !context.state._cartList) {
+        let list = window.localStorage.getItem('mi_app_cart_list');
+        if(list){
+          context.commit('getCartList', JSON.parse(list));
+          return;
+        }
         return new Promise((resolve, reject) => {
           setTimeout(() => {
             service.cart_list.get().then(data => {
@@ -107,7 +117,7 @@ export default new Vuex.Store({
         });
       }
     },
-    appendNewGoods: (context,payload) => {
+    appendNewGoods: (context, payload) => {
       return new Promise((resolve, reject) => {
         if (context.state._loginStatus === false) {
           context.dispatch('login').then(() => {
@@ -132,7 +142,7 @@ export default new Vuex.Store({
       });
       context.state._cartList.items.forEach((item) => { //如果购物车已经有了，直接增加一个
         if (item.commodity_id === payload.commodityId) {
-          console.log(item.commodity_id,payload.commodityId);
+          console.log(item.commodity_id, payload.commodityId);
           context.commit('addGoods', {
             item
           });

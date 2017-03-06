@@ -1,3 +1,6 @@
+export function saveCartList(list){
+  window.localStorage.setItem('mi_app_cart_list',JSON.stringify(list));
+}
 export function createdNewGoods(data, type) {
   console.log(data);
   let goods = {
@@ -35,7 +38,6 @@ export function addGoods(list, item, num = 1) {
   list.totalSelGoods += num;
   list.productMoneySelGoods += money;
   list.total += num;
-  console.log(list);
   list.productMoneySelGoods = new Number(list.productMoneySelGoods.toFixed(2)).valueOf();
 }
 export function updateList(list) {
@@ -57,4 +59,6 @@ export function updateList(list) {
   list.totalSelGoods = num;
   list.totalprice = _price;
   list.productMoneySelGoods = price;
+  saveCartList(list);
 }
+

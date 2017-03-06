@@ -71,8 +71,9 @@ import VueBackTop from 'components/common/backTop.vue'
     },
     methods:{
       appendToCart(){
+        let me = this;
         this.$store.dispatch('appendNewGoods',{
-          id:this.$route.query.id,
+          id:me.data.id,
           commodityId:this.selectedSize.commodity_id
           }).then(()=>{
           this.$router.push({name:'cart'});
