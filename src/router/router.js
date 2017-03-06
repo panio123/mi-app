@@ -6,7 +6,10 @@ const Product = r => require.ensure([], () => r(require('../page/home/Product.vu
 const Category = r => require.ensure([], () => r(require('../page/category/Category.vue')), 'category');
 const CategoryList = r => require.ensure([], () => r(require('../page/category/List.vue')), 'category');
 
+const My = r => require.ensure([], () => r(require('../page/my/My.vue')), 'my');
+
 const Cart = r => require.ensure([], () => r(require('../page/Cart.vue')), 'cart');
+
 const Login = r => require.ensure([], () => r(require('../page/Login.vue')), 'login');
 
 const list = {
@@ -49,6 +52,11 @@ const list = {
     name:'login',
     meta:'小米商城-登录',
     component:Login
+  },{
+    path:'/my',
+    name:'my',
+    meta:'小米商城-个人中心',
+    component:My
   }]
 };
 export default list;
