@@ -1,0 +1,64 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "list": [{
+      "id": "4694",
+      "stand_img_id": "8861446",
+      "name": "小米Note 2 4GB ＋ 64GB",
+      "market_price_max": "2799.00",
+      "market_price_min": "2799.00",
+      "price_max": "2799.00",
+      "price_min": "2799.00",
+      "has_store": "0",
+      "is_cos": true,
+      "img_url": "http://i8.mifile.cn/v1/a1/7737cbb7-e873-8cf9-1f85-9fabb6c35da5.webp",
+      "action": {
+        "log_code": "30000001110001001"
+      },
+      "product_comment": "5.7\" 双曲面柔性屏 / 3D曲面玻璃 / 骁龙 821 性能版 / 2256万超高像素相机 / 4070mAh 超长续航",
+      "tag_img": ""
+    }, {
+      "id": "4696",
+      "stand_img_id": "8861446",
+      "name": "小米Note 2 6GB ＋ 128G",
+      "market_price_max": "3299.00",
+      "market_price_min": "3299.00",
+      "price_max": "3299.00",
+      "price_min": "3299.00",
+      "has_store": "0",
+      "is_cos": true,
+      "img_url": "http://i8.mifile.cn/v1/a1/12e47783-a132-3035-d753-5e825e1ff2b2.webp",
+      "action": {
+        "log_code": "30000001110002001"
+      },
+      "product_comment": "5.7\" 双曲面柔性屏 / 3D曲面玻璃 / 骁龙 821 性能版 / 2256万超高像素相机 / 4070mAh 超长续航",
+      "tag_img": ""
+    }, {
+      "id": "4697",
+      "stand_img_id": "8861446",
+      "name": "小米Note 2 全球版 6GB ＋ 128GB",
+      "market_price_max": "3499.00",
+      "market_price_min": "3499.00",
+      "price_max": "3499.00",
+      "price_min": "3499.00",
+      "has_store": "0",
+      "is_cos": true,
+      "img_url": "http://i8.mifile.cn/v1/a1/3e831770-efa9-cc52-1756-b471f9bd046a.webp",
+      "action": {
+        "log_code": "30000001110003001"
+      },
+      "product_comment": "5.7\" 双曲面柔性屏 / 3D曲面玻璃 / 骁龙 821 性能版 / 2256万超高像素相机 / 4070mAh 超长续航",
+      "tag_img": ""
+    }],
+    "header": [],
+    "footer": [],
+    "page_num": 1,
+    "seo": {
+      "title": "小米Note 2 版本列表_小米商城",
+      "keywords": "小米Note2版本,小米商城",
+      "description": "小米Note 2 双曲面，一面科技，一面艺术。5.7英寸双曲面柔性屏，正反面3D曲面玻璃。"
+    }
+  }
+}

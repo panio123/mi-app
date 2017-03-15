@@ -1,0 +1,63 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "ActDiscountMin": 150,
+    "ActTotalMoney": "0",
+    "activityDiscountMoney": 0,
+    "activitys": {
+      "coupons": [],
+      "gift": [],
+      "postFree": [],
+      "postFrees": [],
+      "reduction": []
+    },
+    "address_match": "blance",
+    "appConfig": {
+      "CODExpense": "20",
+      "discountMin": "150",
+      "shipmentDesc": "",
+      "shipmentExpense": "10"
+    },
+    "bargains": [],
+    "has": ["mobile", "blance", "major_appliance", "special_shipment"],
+    "hasBargainSupply": true,
+    "items": [{
+      "addTime": 0,
+      "buy_limit": 10,
+      "can_change_num": true,
+      "can_delete": true,
+      "cartTTL": 1.519906568e+09,
+      "commodity_id": "",
+      "elementsGoods": false,
+      "goodsId": "",
+      "image_url": "",
+      "is_available": true,
+      "is_batched": false,
+      "is_cos": false,
+      "itemId": "",
+      "num": 1,
+      "price": "",
+      "product_name": "",
+      "salePrice": "",
+      "sel_status": 1,
+      "short_name": "",
+      "showType": "buy",
+      "sku": "",
+      "subtotal": 0,
+      "updateTime":0
+    }],
+    "orderMoney": "",
+    "orderMoneySelGoods": "",
+    "postFree": false,
+    "postFreeBalance": 0,
+    "productMoney": 0,
+    "productMoneySelGoods": 0,
+    "specialMoney": 0,
+    "total": 0,
+    "totalSelGoods": 0,
+    "totalWithoutGift": 0,
+    "totalprice": ""
+  }
+}

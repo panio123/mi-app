@@ -1,0 +1,494 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "advertising": [{
+      "body": {
+        "items": [{
+          "action": {
+            "log_code": "30000002180074001",
+            "login": false,
+            "m_type": "product",
+            "path": "",
+            "stat": ""
+          },
+          "img_url": "//i8.mifile.cn/v1/a1/6b5e2d95-f5aa-37b2-2b2e-dd327808e799.webp",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/6b5e2d95-f5aa-37b2-2b2e-dd327808e799.webp"
+        }]
+      },
+      "sub_view_type": 0,
+      "view_type": "mad"
+    }],
+    "all_is_sale": 1,
+    "apply_to": [],
+    "body_list": [{
+      "name": "概述",
+      "show_type": "config",
+      "tab_content": [{
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/T1XqKgB7hv1RC2b46K.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/T1XqKgB7hv1RC2b46K.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/a8971b7b-02ec-7e06-e10b-963563774c51.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/a8971b7b-02ec-7e06-e10b-963563774c51.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/561bbf0d-f1e1-65b6-33ce-a313acfb213b.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/561bbf0d-f1e1-65b6-33ce-a313acfb213b.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/5651f8cf-8cbb-70e1-5869-1033c331c8f9.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/5651f8cf-8cbb-70e1-5869-1033c331c8f9.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/c1d6af10-837e-a255-664a-913f890fb345.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/c1d6af10-837e-a255-664a-913f890fb345.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/31f2db06-d6e4-dcfc-ef04-1dba5375363a.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/31f2db06-d6e4-dcfc-ef04-1dba5375363a.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/ea5209ae-114b-d9d7-2692-ac6cd74c901a.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/ea5209ae-114b-d9d7-2692-ac6cd74c901a.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/b3903cd8-f65d-44ef-6304-fea336d4938d.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/b3903cd8-f65d-44ef-6304-fea336d4938d.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/23e76d45-caa7-25bb-0c3e-ae89ddb9b63d.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/23e76d45-caa7-25bb-0c3e-ae89ddb9b63d.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/7b382fe5-ad46-9fa9-ca6d-b59f9c824d47.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/7b382fe5-ad46-9fa9-ca6d-b59f9c824d47.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/4398e0f8-4c61-78f0-c550-6dd1c4e920da.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/4398e0f8-4c61-78f0-c550-6dd1c4e920da.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/9e1784de-cfce-dd16-88db-f978ed613ac7.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/9e1784de-cfce-dd16-88db-f978ed613ac7.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/0d3a3b88-8dee-651c-0e52-a307f7707306.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/0d3a3b88-8dee-651c-0e52-a307f7707306.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/147ed75b-caae-e897-7d56-893f98e03c03.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/147ed75b-caae-e897-7d56-893f98e03c03.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/T1MThjBXAv1RC2b46K.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/T1MThjBXAv1RC2b46K.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/1d5cea0a-1c2d-c4dc-ae63-5da39eccaca0.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/1d5cea0a-1c2d-c4dc-ae63-5da39eccaca0.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }],
+      "view_type": "desc_tabs_view"
+    }, {
+      "name": "参数",
+      "show_type": "config",
+      "tab_content": [{
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/3cace552-2633-cf82-f97f-dbaf4a62baa3.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/3cace552-2633-cf82-f97f-dbaf4a62baa3.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/1c96f38c-9b1c-42d5-876b-fb913b753be2.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/1c96f38c-9b1c-42d5-876b-fb913b753be2.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/561a516a-0aee-7783-4657-46998ea75e7a.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/561a516a-0aee-7783-4657-46998ea75e7a.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/c87632f6-8ffa-4afc-564c-edbc08a844d1.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/c87632f6-8ffa-4afc-564c-edbc08a844d1.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/f46d705c-89d6-4255-616f-1cb2d8352d95.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/f46d705c-89d6-4255-616f-1cb2d8352d95.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/6880e6cf-2c4a-6d71-f298-badb3151abf0.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/6880e6cf-2c4a-6d71-f298-badb3151abf0.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }],
+      "view_type": "desc_tabs_view"
+    }, {
+      "name": "图集",
+      "show_type": "config",
+      "tab_content": [{
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/85ad80bf-7240-9272-f1f9-1911f91d08b6.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/85ad80bf-7240-9272-f1f9-1911f91d08b6.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/88e9821c-511f-c725-aaf9-7243325e05d1.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/88e9821c-511f-c725-aaf9-7243325e05d1.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/9f5f0ab5-29cf-13be-b47b-58c088e1ae1e.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/9f5f0ab5-29cf-13be-b47b-58c088e1ae1e.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/ffb39ccb-95cb-8667-5165-4774740160be.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/ffb39ccb-95cb-8667-5165-4774740160be.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/110dabe6-5050-b3fb-6050-baec6c5d5cbf.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/110dabe6-5050-b3fb-6050-baec6c5d5cbf.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/09a2b695-cfb7-fca3-8b53-af0dd0186957.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/09a2b695-cfb7-fca3-8b53-af0dd0186957.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/eb72ee03-dc44-1954-60e5-8b04d4decc57.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/eb72ee03-dc44-1954-60e5-8b04d4decc57.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/5d3b658a-a915-904c-be03-0f985442691e.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/5d3b658a-a915-904c-be03-0f985442691e.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/076cb364-248f-4c54-a317-66e626e18a37.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/076cb364-248f-4c54-a317-66e626e18a37.webp",
+          "is_not_compress": "",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }],
+      "view_type": "desc_tabs_view"
+    }],
+    "commodity_list": [{
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1154300002",
+      "custom_name": "九号平衡车 黑色",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1154300002",
+        "custom_name": "九号平衡车 黑色",
+        "goods_id": "2154300002",
+        "is_cos": false,
+        "is_hd_bigtap": false,
+        "is_normal_value": 1,
+        "is_sale": "1",
+        "market_price": "1999.00",
+        "name": "九号平衡车 黑色",
+        "now_sales_type": "common",
+        "price": "1999.00",
+        "sales_type": ["common"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "0",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "通用",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "http://i8.mifile.cn/v1/a1/T1hdEgB_Kv1RC2b46K.webp",
+      "icon_name": "黑色",
+      "icon_webp": "http://i8.mifile.cn/v1/a1/T1hdEgB_Kv1RC2b46K.webp",
+      "img_url": "http://i8.mifile.cn/v1/a1/69b67e56-1887-9fa6-becc-969c616c530c.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/69b67e56-1887-9fa6-becc-969c616c530c.webp",
+      "is_batched": "0",
+      "is_cos": false,
+      "is_sale": "1",
+      "name": "九号平衡车 黑色",
+      "sales_type": ["common"],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "黑色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }, {
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1154300001",
+      "custom_name": "九号平衡车 白色",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1154300001",
+        "custom_name": "九号平衡车 白色",
+        "goods_id": "2154300001",
+        "is_cos": false,
+        "is_hd_bigtap": false,
+        "is_normal_value": 1,
+        "is_sale": "1",
+        "market_price": "1999.00",
+        "name": "九号平衡车 白色",
+        "now_sales_type": "common",
+        "price": "1999.00",
+        "sales_type": ["common"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "0",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "通用",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "http://i8.mifile.cn/v1/a1/8a852789-c5db-5827-de41-be0787074461.webp",
+      "icon_name": "白色",
+      "icon_webp": "http://i8.mifile.cn/v1/a1/8a852789-c5db-5827-de41-be0787074461.webp",
+      "img_url": "http://i8.mifile.cn/v1/a1/f3230bc7-5a9c-2314-e00f-354f100d9f33.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/f3230bc7-5a9c-2314-e00f-354f100d9f33.webp",
+      "is_batched": "0",
+      "is_cos": false,
+      "is_sale": "1",
+      "name": "九号平衡车 白色",
+      "sales_type": ["common"],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "白色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }],
+    "gallery_img": ["http://i8.mifile.cn/v1/a1/fa3f65f1-732b-b17f-21ef-f4f243d3a151.webp", "http://i8.mifile.cn/v1/a1/8d5bc41b-6a15-920f-3f02-cacc7f20641d.webp", "http://i8.mifile.cn/v1/a1/5e8fac1a-3933-4812-605a-af10efa5a34f.webp", "http://i8.mifile.cn/v1/a1/26d34e79-67ea-3424-c0b6-9e2ed14ed996.webp"],
+    "id": "2774",
+    "img_url": "http://i8.mifile.cn/v1/a1/c7aa2e91-5507-f219-7873-ec6317eee239.webp",
+    "is_batched": "0",
+    "market_price_max": "1999.00",
+    "market_price_min": "1999.00",
+    "name": "九号平衡车",
+    "price_max": "1999.00",
+    "price_min": "1999.00",
+    "product_desc": "年轻人的酷玩具 / 骑行遥控两种玩法 / 22公里超长续航  / 轻、小、便携 / 重心驱动 / 15重安全保障",
+    "product_type": "common_goods",
+    "related_goods": [{
+      "commodity_id": 2784,
+      "commodity_list": ["1154300012"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1qcVjBmZT1RXrhCrK.jpg",
+      "name": "九号护具套装",
+      "price_max": "169.00",
+      "price_min": "169.00"
+    }, {
+      "commodity_id": 3331,
+      "commodity_list": ["1160800019", "1160800020", "1160800021"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1hVY_BTdv1RXrhCrK.jpg",
+      "name": "小米随身蓝牙音箱",
+      "price_max": "59.00",
+      "price_min": "59.00"
+    }, {
+      "commodity_id": 3546,
+      "commodity_list": ["1161300035", "1163600039"],
+      "image_url": "http://i8.mifile.cn/v1/a1/4a881b13-d65b-3d63-2bcd-063697074c81.jpg",
+      "name": "自拍杆(线控版)",
+      "price_max": "45.00",
+      "price_min": "45.00"
+    }, {
+      "commodity_id": 3460,
+      "commodity_list": ["1161200013", "1161200014"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T14FxgBgEv1RXrhCrK.jpg",
+      "name": "多功能休闲胸包",
+      "price_max": "59.00",
+      "price_min": "59.00"
+    }, {
+      "commodity_id": 2843,
+      "commodity_list": ["1154400043"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1PVA_B5Wv1RXrhCrK.jpg",
+      "name": "小米车载充电器",
+      "price_max": "49.00",
+      "price_min": "49.00"
+    }, {
+      "commodity_id": 1677,
+      "commodity_list": ["1144200006"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T19V_gBsVT1RXrhCrK.jpg",
+      "name": "小米万能遥控器",
+      "price_max": "79.00",
+      "price_min": "79.00"
+    }, {
+      "commodity_id": 2804,
+      "commodity_list": ["1154300033", "1160100026"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1rpVjBvEv1RXrhCrK.jpg",
+      "name": "彩虹5号电池",
+      "price_max": "9.90",
+      "price_min": "9.90"
+    }, {
+      "commodity_id": 3458,
+      "commodity_list": ["1161200010", "1161200011"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1pQ_vBjKv1RXrhCrK.jpg",
+      "name": "小米圈铁耳机",
+      "price_max": "99.00",
+      "price_min": "99.00"
+    }],
+    "seo_description": "",
+    "seo_keywords": "",
+    "seo_title": "",
+    "spec_type": "blance"
+  }
+}

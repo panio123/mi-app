@@ -1,0 +1,133 @@
+{
+  "data": [{
+    "action": {
+      "extra": {
+        "commodityId": "4697"
+      },
+      "log_code": "search_0#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=4697\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 419,
+    "cat_index": 0,
+    "index": 0,
+    "keyword": "小米Note 2 全球版 6GB ＋ 128GB"
+  }, {
+    "action": {
+      "extra": {
+        "commodityId": "10000021"
+      },
+      "log_code": "search_1#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=10000021\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 419,
+    "cat_index": 0,
+    "index": 0,
+    "keyword": "小米Note 2"
+  }, {
+    "action": {
+      "extra": {
+        "commodityId": "10000022"
+      },
+      "log_code": "search_2#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=10000022\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 420,
+    "cat_index": 1,
+    "index": 0,
+    "keyword": "小米MIX"
+  }, {
+    "action": {
+      "extra": {
+        "commodityId": "10000024"
+      },
+      "log_code": "search_3#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=10000024\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 410,
+    "cat_index": 2,
+    "index": 0,
+    "keyword": "小米手机5s"
+  }, {
+    "action": {
+      "extra": {
+        "commodityId": "10000025"
+      },
+      "log_code": "search_4#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=10000025\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 411,
+    "cat_index": 3,
+    "index": 0,
+    "keyword": "小米5s Plus"
+  }, {
+    "action": {
+      "extra": {
+        "commodityId": "10000015"
+      },
+      "log_code": "search_5#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=10000015\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 286,
+    "cat_index": 4,
+    "index": 0,
+    "keyword": "小米手机5"
+  }, {
+    "action": {
+      "extra": {
+        "commodityId": "10000026"
+      },
+      "log_code": "search_6#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=10000026\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 340,
+    "cat_index": 5,
+    "index": 0,
+    "keyword": "小米Max"
+  }, {
+    "action": {
+      "extra": {
+        "commodityId": "4081"
+      },
+      "log_code": "search_7#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=4081\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 385,
+    "cat_index": 12,
+    "index": 0,
+    "keyword": "小米笔记本Air 12.5 英寸"
+  }, {
+    "action": {
+      "extra": {
+        "commodityId": "4082"
+      },
+      "log_code": "search_8#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=4082\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 386,
+    "cat_index": 13,
+    "index": 0,
+    "keyword": "小米笔记本Air 13.3 英寸"
+  }, {
+    "action": {
+      "extra": {
+        "commodityId": "4679"
+      },
+      "log_code": "search_9#seid=20:0:0:0:0:0:0:0:0:0\u0026page=suggesion\u0026pid=4679\u0026keyword=小米",
+      "path": "ShopPlugin://com.xiaomi.shop2.plugin.goodsdetail.GoodsDetailFragment?pluginId=101",
+      "type": "plugin"
+    },
+    "cat_id": 428,
+    "cat_index": 14,
+    "index": 0,
+    "keyword": "小米便携鼠标"
+  }]
+}

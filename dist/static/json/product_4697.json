@@ -1,0 +1,398 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "advertising": [{
+      "body": {
+        "items": [{
+          "action": {
+            "log_code": "30000002180074001",
+            "login": false,
+            "m_type": "product",
+            "path": "",
+            "stat": ""
+          },
+          "img_url": "//i8.mifile.cn/v1/a1/6b5e2d95-f5aa-37b2-2b2e-dd327808e799.webp",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/6b5e2d95-f5aa-37b2-2b2e-dd327808e799.webp"
+        }]
+      },
+      "sub_view_type": 0,
+      "view_type": "mad"
+    }],
+    "all_is_sale": 1,
+    "apply_to": [],
+    "body_list": [{
+      "name": "概述",
+      "show_type": "config",
+      "tab_content": [{
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/6d6defbb-9955-7852-d5fb-814b90b3edc7.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/6d6defbb-9955-7852-d5fb-814b90b3edc7.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/9199643b-1612-d1d2-f882-f5a1987e8de2.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/9199643b-1612-d1d2-f882-f5a1987e8de2.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/e4f9b758-5596-f421-b43d-9ce2b1fd823e.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/e4f9b758-5596-f421-b43d-9ce2b1fd823e.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/54acf4ca-178d-e18f-31b4-cc5c70cdd4cc.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/54acf4ca-178d-e18f-31b4-cc5c70cdd4cc.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/247981b1-9768-f640-51f0-060e3befb8d5.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/247981b1-9768-f640-51f0-060e3befb8d5.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/3dc564d8-4752-5e66-b7cd-7c22dee8fd83.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/3dc564d8-4752-5e66-b7cd-7c22dee8fd83.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/a377a15a-92a7-a660-a5c8-d21caefe7023.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/a377a15a-92a7-a660-a5c8-d21caefe7023.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/20d9ab66-7460-83ee-2a68-8a601329e96a.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/20d9ab66-7460-83ee-2a68-8a601329e96a.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/4a990d00-5e63-2eff-d334-e8676da0b647.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/4a990d00-5e63-2eff-d334-e8676da0b647.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/a891b98e-413e-6a5f-027f-39231b7686e3.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/a891b98e-413e-6a5f-027f-39231b7686e3.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/bd93c627-3778-84ee-5ff6-2aea0b20058c.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/bd93c627-3778-84ee-5ff6-2aea0b20058c.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/fd44b56a-3bdf-1b52-aac7-a0c388183922.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/fd44b56a-3bdf-1b52-aac7-a0c388183922.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/e6ce790d-9ce7-10b5-1e75-2f56f264c503.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/e6ce790d-9ce7-10b5-1e75-2f56f264c503.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/80fcf458-e1c8-1300-143f-33710cf97995.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/80fcf458-e1c8-1300-143f-33710cf97995.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/d45c681f-c161-9c82-4f56-0e6611828808.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/d45c681f-c161-9c82-4f56-0e6611828808.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }],
+      "view_type": "desc_tabs_view"
+    }, {
+      "name": "参数",
+      "show_type": "config",
+      "tab_content": [{
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/e7b59ef5-d90d-fd0c-f917-0e874465948f.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/e7b59ef5-d90d-fd0c-f917-0e874465948f.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/2d99fa79-aef3-de2f-8bf4-eb8d5e18ac88.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/2d99fa79-aef3-de2f-8bf4-eb8d5e18ac88.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/cc77c623-f8bd-2faf-62c9-715da060ff03.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/cc77c623-f8bd-2faf-62c9-715da060ff03.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/bb94b43d-d0df-b618-ad76-20517d36fd08.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/bb94b43d-d0df-b618-ad76-20517d36fd08.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/cbda06ff-0239-6f5e-3165-ee9a739ed594.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/cbda06ff-0239-6f5e-3165-ee9a739ed594.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/bb791e29-dae4-f247-9de9-48633776a358.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/bb791e29-dae4-f247-9de9-48633776a358.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/ee199aba-1602-85fd-d426-dcb501f6bc57.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/ee199aba-1602-85fd-d426-dcb501f6bc57.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/835759e7-99ba-3009-5433-8704e919cf11.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/835759e7-99ba-3009-5433-8704e919cf11.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/8491baaf-286b-6b25-42c1-dc84ca5cd185.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/8491baaf-286b-6b25-42c1-dc84ca5cd185.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/ed9a125d-ec69-9474-96fc-7aca2e861da7.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/ed9a125d-ec69-9474-96fc-7aca2e861da7.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/c0001bb3-0f14-e431-bbb2-fa3529a567f3.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/c0001bb3-0f14-e431-bbb2-fa3529a567f3.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/abfa308c-e9f2-99ef-9091-76abd9b0f8cc.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/abfa308c-e9f2-99ef-9091-76abd9b0f8cc.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/af9e4919-8232-acfa-8e75-8467bc73246b.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/af9e4919-8232-acfa-8e75-8467bc73246b.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/11853f88-690e-2cf7-533a-dab1bbef5e88.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/11853f88-690e-2cf7-533a-dab1bbef5e88.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }],
+      "view_type": "desc_tabs_view"
+    }],
+    "commodity_list": [{
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1164200008",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1164200008",
+        "goods_id": "2164200006",
+        "is_cos": true,
+        "is_hd_bigtap": false,
+        "is_normal_value": 0,
+        "is_sale": "1",
+        "market_price": "3499.00",
+        "name": "小米Note 2 全球版 6GB内存＋128GB容量 亮黑色",
+        "now_sales_type": "bigtapHD",
+        "price": "3499.00",
+        "sales_type": ["bigtapHD"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "1487901600",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "128GB",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "",
+      "icon_name": "亮黑色",
+      "icon_webp": "",
+      "img_url": "http://i8.mifile.cn/v1/a1/71d2dba7-48ec-436f-34e3-fbc351a3b55b.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/71d2dba7-48ec-436f-34e3-fbc351a3b55b.webp",
+      "is_batched": "0",
+      "is_cos": true,
+      "is_sale": "1",
+      "name": "小米Note 2 全球版 6GB内存＋128GB容量 亮黑色",
+      "sales_type": [],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "黑色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }],
+    "gallery_img": ["http://i8.mifile.cn/v1/a1/ddf8cc80-91b2-343b-0449-b9e5d4f22f8f.webp", "http://i8.mifile.cn/v1/a1/93619ee0-d45e-5f3a-b6c1-01bd710c5b10.webp", "http://i8.mifile.cn/v1/a1/77d0badc-e71a-0c92-db4d-0965e5a80a12.webp"],
+    "id": "4697",
+    "img_url": "http://i8.mifile.cn/v1/a1/71d2dba7-48ec-436f-34e3-fbc351a3b55b.webp",
+    "is_batched": "0",
+    "market_price_max": "3499.00",
+    "market_price_min": "3499.00",
+    "name": "小米Note 2 全球版 6GB ＋ 128GB",
+    "price_max": "3499.00",
+    "price_min": "3499.00",
+    "product_desc": "5.7\" 双曲面柔性屏 / 3D曲面玻璃 / 骁龙 821 性能版 / 2256万超高像素相机 / 4070mAh 超长续航",
+    "product_type": "common_goods",
+    "related_goods": [{
+      "commodity_id": 4800,
+      "commodity_list": ["1164300029", "1164300030"],
+      "image_url": "http://i8.mifile.cn/v1/a1/c30ed14c-f89b-4d80-3edb-2617eb79e959.jpg",
+      "name": "小米Note2 智能翻盖保护套",
+      "price_max": "39.00",
+      "price_min": "39.00"
+    }, {
+      "commodity_id": 2806,
+      "commodity_list": ["1154300036", "1154300037"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1n5W_BgLv1RXrhCrK.jpg",
+      "name": "小米小钢炮蓝牙音箱 2",
+      "price_max": "129.00",
+      "price_min": "129.00"
+    }, {
+      "commodity_id": 2977,
+      "commodity_list": ["1154900023", "1154900024", "1154900025"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T164L_BmAv1RXrhCrK.jpg",
+      "name": "青米USB快速充电数据线",
+      "price_max": "19.00",
+      "price_min": "9.90"
+    }, {
+      "commodity_id": 4580,
+      "commodity_list": ["1163900020", "1163900021"],
+      "image_url": "http://i8.mifile.cn/v1/a1/3563cadb-795d-2240-c83d-9aeedd67ff4e.jpg",
+      "name": "小米移动电源2",
+      "price_max": "79.00",
+      "price_min": "79.00"
+    }, {
+      "commodity_id": 3486,
+      "commodity_list": ["1161200059"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1ECC_B_Av1RXrhCrK.jpg",
+      "name": "小米路由器3",
+      "price_max": "149.00",
+      "price_min": "149.00"
+    }],
+    "seo_description": "小米Note 2 双曲面，一面科技，一面艺术。5.7英寸双曲面柔性屏，正反面3D曲面玻璃。",
+    "seo_keywords": "小米Note2,小米Note 2,小米 Note2,小米 Note 2,小米商城",
+    "seo_title": "小米Note 2 全球版 6GB ＋ 128GB_小米商城",
+    "spec_type": "mobile"
+  }
+}

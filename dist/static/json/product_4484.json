@@ -1,0 +1,566 @@
+{
+  "code": 0,
+  "result": "ok",
+  "description": "success",
+  "data": {
+    "advertising": [{
+      "body": {
+        "items": [{
+          "action": {
+            "log_code": "30000002180074001",
+            "login": false,
+            "m_type": "product",
+            "path": "",
+            "stat": ""
+          },
+          "img_url": "//i8.mifile.cn/v1/a1/6b5e2d95-f5aa-37b2-2b2e-dd327808e799.webp",
+          "img_url_webp": "//i8.mifile.cn/v1/a1/6b5e2d95-f5aa-37b2-2b2e-dd327808e799.webp"
+        }]
+      },
+      "sub_view_type": 0,
+      "view_type": "mad"
+    }],
+    "all_is_sale": 1,
+    "apply_to": [],
+    "body_list": [{
+      "name": "概述",
+      "show_type": "config",
+      "tab_content": [{
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/735a5267-081b-96a7-c004-6be3387bb309.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/735a5267-081b-96a7-c004-6be3387bb309.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/1c56e5ca-e82a-63fe-171c-ed513e211528.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/1c56e5ca-e82a-63fe-171c-ed513e211528.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/fdd8b126-0750-5a27-1546-fbe7103fbb7b.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/fdd8b126-0750-5a27-1546-fbe7103fbb7b.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/d2eb62b0-7fcb-4d25-f5d5-82044c04aa52.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/d2eb62b0-7fcb-4d25-f5d5-82044c04aa52.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/f5dc2852-415c-5b51-6d2a-241c9e9e9e40.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/f5dc2852-415c-5b51-6d2a-241c9e9e9e40.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/1b68d64f-a944-19c9-73e6-fb3891ea3594.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/1b68d64f-a944-19c9-73e6-fb3891ea3594.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/c6650350-03af-5002-330c-261556ed7ec6.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/c6650350-03af-5002-330c-261556ed7ec6.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/ca30e2ff-bbe3-ee13-0850-66aed2ecc134.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/ca30e2ff-bbe3-ee13-0850-66aed2ecc134.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/aa8db716-cf90-9597-7928-2873d17a34c9.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/aa8db716-cf90-9597-7928-2873d17a34c9.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/e0e534c2-9b72-5413-723e-762fa29ad808.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/e0e534c2-9b72-5413-723e-762fa29ad808.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/a69f16e2-f70e-8a8d-a332-4d81237c32a1.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/a69f16e2-f70e-8a8d-a332-4d81237c32a1.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/09545381-72ed-a385-1319-fb7f11421fae.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/09545381-72ed-a385-1319-fb7f11421fae.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/70c7a367-18a7-de2a-be97-d0c606d6adc7.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/70c7a367-18a7-de2a-be97-d0c606d6adc7.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }],
+      "view_type": "desc_tabs_view"
+    }, {
+      "name": "参数",
+      "show_type": "config",
+      "tab_content": [{
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/282eb1ca-894f-96d9-bf64-76a0762672c5.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/282eb1ca-894f-96d9-bf64-76a0762672c5.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/6b8b6f0a-2694-6630-f44a-e78da73f3bee.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/6b8b6f0a-2694-6630-f44a-e78da73f3bee.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/e7ee7a3e-d9e1-5c0d-2f1e-5dca2b3696a2.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/e7ee7a3e-d9e1-5c0d-2f1e-5dca2b3696a2.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/5b4c3b9f-8386-6c7f-1227-d6d3ea33d976.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/5b4c3b9f-8386-6c7f-1227-d6d3ea33d976.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/7f0d0a24-ea80-ccc0-342c-399c8f7c9832.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/7f0d0a24-ea80-ccc0-342c-399c8f7c9832.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/ebbd143f-46bd-7601-9748-bae1a80e7b77.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/ebbd143f-46bd-7601-9748-bae1a80e7b77.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/8837e08a-721f-06f5-97be-9b5b6beea37a.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/8837e08a-721f-06f5-97be-9b5b6beea37a.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/0be75fcd-d7d3-d547-9deb-00aa5e70b576.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/0be75fcd-d7d3-d547-9deb-00aa5e70b576.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/74183774-e303-068b-4d8c-95ecaaf0c068.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/74183774-e303-068b-4d8c-95ecaaf0c068.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/ee554d06-0e1c-8910-144e-6a9cabcfeae5.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/ee554d06-0e1c-8910-144e-6a9cabcfeae5.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/5d51b1c2-abf8-6dce-c419-cda8aba10c9c.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/5d51b1c2-abf8-6dce-c419-cda8aba10c9c.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/ed1babb1-2d33-792e-732e-6c333924c150.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/ed1babb1-2d33-792e-732e-6c333924c150.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }, {
+        "plain_view": {
+          "content": "",
+          "img": "http://i8.mifile.cn/v1/a1/f975b9a1-d84d-6c60-5c11-c5dd7d054c81.webp",
+          "img_webp": "http://i8.mifile.cn/v1/a1/f975b9a1-d84d-6c60-5c11-c5dd7d054c81.webp",
+          "is_not_compress": "0",
+          "title": ""
+        },
+        "view_type": "plain_view"
+      }],
+      "view_type": "desc_tabs_view"
+    }],
+    "commodity_list": [{
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1163700035",
+      "custom_name": "小米5s Plus  64GB 玫瑰金",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1163700035",
+        "custom_name": "小米5s Plus  64GB 玫瑰金",
+        "goods_id": "2163700025",
+        "is_cos": true,
+        "is_hd_bigtap": false,
+        "is_normal_value": 0,
+        "is_sale": "1",
+        "market_price": "2299.00",
+        "name": "小米5s Plus  64GB 玫瑰金",
+        "now_sales_type": "common",
+        "price": "2299.00",
+        "sales_type": ["common"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "0",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "64GB",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "",
+      "icon_name": "玫瑰金",
+      "icon_webp": "",
+      "img_url": "http://i8.mifile.cn/v1/a1/039aab24-ae6f-23de-59eb-3bb0f1200708.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/039aab24-ae6f-23de-59eb-3bb0f1200708.webp",
+      "is_batched": "0",
+      "is_cos": true,
+      "is_sale": "1",
+      "name": "小米5s Plus  64GB 玫瑰金",
+      "sales_type": [],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "花色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }, {
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1163700034",
+      "custom_name": "小米5s Plus  64GB 拉丝金色",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1163700034",
+        "custom_name": "小米5s Plus  64GB 拉丝金色",
+        "goods_id": "2163700024",
+        "is_cos": true,
+        "is_hd_bigtap": false,
+        "is_normal_value": 0,
+        "is_sale": "1",
+        "market_price": "2299.00",
+        "name": "小米5s Plus  64GB 拉丝金色",
+        "now_sales_type": "common",
+        "price": "2299.00",
+        "sales_type": ["common"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "0",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "64GB",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "",
+      "icon_name": "拉丝金色",
+      "icon_webp": "",
+      "img_url": "http://i8.mifile.cn/v1/a1/e18f52d0-8544-4dac-0dc3-2f57e9e81c99.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/e18f52d0-8544-4dac-0dc3-2f57e9e81c99.webp",
+      "is_batched": "0",
+      "is_cos": true,
+      "is_sale": "1",
+      "name": "小米5s Plus  64GB 拉丝金色",
+      "sales_type": [],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "金色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }, {
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1163700033",
+      "custom_name": "小米5s Plus  64GB 拉丝银色",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1163700033",
+        "custom_name": "小米5s Plus  64GB 拉丝银色",
+        "goods_id": "2163700023",
+        "is_cos": true,
+        "is_hd_bigtap": false,
+        "is_normal_value": 0,
+        "is_sale": "1",
+        "market_price": "2299.00",
+        "name": "小米5s Plus  64GB 拉丝银色",
+        "now_sales_type": "common",
+        "price": "2299.00",
+        "sales_type": ["common"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "0",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "64GB",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "",
+      "icon_name": "拉丝银色",
+      "icon_webp": "",
+      "img_url": "http://i8.mifile.cn/v1/a1/8eaf5ef8-16eb-bcd8-15f5-22f9c1c86eea.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/8eaf5ef8-16eb-bcd8-15f5-22f9c1c86eea.webp",
+      "is_batched": "0",
+      "is_cos": true,
+      "is_sale": "1",
+      "name": "小米5s Plus  64GB 拉丝银色",
+      "sales_type": [],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "银色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }, {
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1163700032",
+      "custom_name": "小米5s Plus  64GB 拉丝深灰",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1163700032",
+        "custom_name": "小米5s Plus  64GB 拉丝深灰",
+        "goods_id": "2163700022",
+        "is_cos": false,
+        "is_hd_bigtap": false,
+        "is_normal_value": 0,
+        "is_sale": "1",
+        "market_price": "2299.00",
+        "name": "小米5s Plus  64GB 拉丝深灰",
+        "now_sales_type": "common",
+        "price": "2299.00",
+        "sales_type": ["common"],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "0",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "64GB",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "",
+      "icon_name": "拉丝深灰",
+      "icon_webp": "",
+      "img_url": "http://i8.mifile.cn/v1/a1/237eb20f-929c-0f6c-8c6c-1de63501c5e5.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/237eb20f-929c-0f6c-8c6c-1de63501c5e5.webp",
+      "is_batched": "0",
+      "is_cos": false,
+      "is_sale": "1",
+      "name": "小米5s Plus  64GB 拉丝深灰",
+      "sales_type": [],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "灰色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }, {
+      "bigtap": false,
+      "canJoinActs": {},
+      "commodity_id": "1170300036",
+      "custom_name": "小米5s Plus 64GB 雅黑色",
+      "goods_list": [{
+        "address_link": "",
+        "address_type": "",
+        "bigtap": false,
+        "commodity_id": "1170300036",
+        "custom_name": "小米手机5s Plus 全网通版 4GB内存 雅黑色 64GB",
+        "goods_id": "2170300015",
+        "is_cos": true,
+        "is_hd_bigtap": false,
+        "is_normal_value": 0,
+        "is_sale": "1",
+        "market_price": "2299.00",
+        "name": "小米手机5s Plus 全网通版 4GB内存 雅黑色 64GB",
+        "now_sales_type": "common",
+        "price": "2299.00",
+        "sales_type": [],
+        "sales_type_name": "",
+        "sales_type_next_sale_time": "0",
+        "sales_type_next_sale_tip": "",
+        "sales_type_url": "",
+        "spec_value_name": "64GB",
+        "timing_sales_type_end_time": 7.2265536e+09,
+        "timing_sales_type_name": "",
+        "timing_sales_type_start_time": 9.46656e+08,
+        "timing_sales_type_url": ""
+      }],
+      "icon": "",
+      "icon_name": "雅黑色",
+      "icon_webp": "",
+      "img_url": "http://i8.mifile.cn/v1/a1/a13df27f-35f1-9012-25ab-e607796ed941.webp",
+      "img_url_webp": "http://i8.mifile.cn/v1/a1/a13df27f-35f1-9012-25ab-e607796ed941.webp",
+      "is_batched": "0",
+      "is_cos": true,
+      "is_sale": "1",
+      "name": "小米5s Plus 64GB 雅黑色",
+      "sales_type": [],
+      "sales_type_name": "",
+      "sales_type_next_sale_time": "0",
+      "sales_type_next_sale_tip": "",
+      "sales_type_url": "",
+      "spec_value_name": "雅黑色",
+      "timing_sales_type_end_time": "0",
+      "timing_sales_type_name": "",
+      "timing_sales_type_start_time": "0",
+      "timing_sales_type_url": ""
+    }],
+    "gallery_img": ["http://i8.mifile.cn/v1/a1/de201252-61e9-acd8-ce30-ac6dd8684f96.webp", "http://i8.mifile.cn/v1/a1/18f543a5-f51e-4add-a483-c4ee9d0d788f.webp", "http://i8.mifile.cn/v1/a1/66830f32-b41c-8a07-81ea-8ae2e9c62921.webp", "http://i8.mifile.cn/v1/a1/57b0f6a7-3429-2227-3c1c-3bb794787b13.webp", "http://i8.mifile.cn/v1/a1/23a838e0-da09-bf9c-a35e-76f7255d021b.webp"],
+    "id": "4484",
+    "img_url": "http://i8.mifile.cn/v1/a1/e18f52d0-8544-4dac-0dc3-2f57e9e81c99.webp",
+    "is_batched": "0",
+    "market_price_max": "2299.00",
+    "market_price_min": "2299.00",
+    "name": "小米5s Plus  64GB",
+    "price_max": "2299.00",
+    "price_min": "2299.00",
+    "product_desc": "\u003cfont color=\"#ff4a00\"\u003e【读新书，换新机】 2月21日-3月8日，购小米5、小米5s、小米5s Plus、小米Max，即可获赠1000阅读书币\u003c/font\u003e5.7\" 大屏双摄像头 / 骁龙 821 旗舰处理器 / 轻薄金属机身 / 4GB内存+64GB容量",
+    "product_type": "common_goods",
+    "related_goods": [{
+      "commodity_id": 4388,
+      "commodity_list": ["1163500025"],
+      "image_url": "http://i8.mifile.cn/v1/a1/7b70d4d5-4e2e-f6fd-1803-61d508236dff.jpg",
+      "name": "小米5s Plus 标准高透贴膜",
+      "price_max": "19.00",
+      "price_min": "19.00"
+    }, {
+      "commodity_id": 4583,
+      "commodity_list": ["1163900025", "1163900027"],
+      "image_url": "http://i8.mifile.cn/v1/a1/4a607daa-add9-6cb2-323f-7f870c2efd50.jpg",
+      "name": "小米手机5s Plus 智能翻盖保护套",
+      "price_max": "49.00",
+      "price_min": "49.00"
+    }, {
+      "commodity_id": 3751,
+      "commodity_list": ["1162000038"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1hvC_BQdT1RXrhCrK.jpg",
+      "name": "USB Type-C 转接头",
+      "price_max": "5.00",
+      "price_min": "5.00"
+    }, {
+      "commodity_id": 3331,
+      "commodity_list": ["1160800019", "1160800020", "1160800021"],
+      "image_url": "http://i8.mifile.cn/v1/a1/T1hVY_BTdv1RXrhCrK.jpg",
+      "name": "小米随身蓝牙音箱",
+      "price_max": "69.00",
+      "price_min": "69.00"
+    }],
+    "seo_description": "小米5s Plus 轻薄金属机身，正面2.5D玻璃，双13MP高画质相机，搭载骁龙821高配版与4GB内存。",
+    "seo_keywords": "小米5s Plus,小米 5s Plus,小米商城",
+    "seo_title": "小米5s Plus 64GB_小米商城",
+    "spec_type": "mobile"
+  }
+}
