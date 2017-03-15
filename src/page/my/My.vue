@@ -1,10 +1,10 @@
 <template>
   <div class="page-wrap my has-footer">
     <div class="flex flex_a_c flex_j_s header">
-      <img :src="userInfo.img">
+      <img :src="getUserInfo.img">
       <div>
-        <p class="name">{{userInfo.name}}</p>
-        <p class="id">{{userInfo.id}}</p>
+        <p class="name" @click="login">{{getUserInfo.name}}</p>
+        <p class="id">{{getUserInfo.id}}</p>
       </div>
     </div>
     <cell :title="'我的订单'" :value="'全部订单'" is-link class="all-orders"></cell>
@@ -38,6 +38,7 @@
         <span slot="icon" class="iconfont icon-settings"></span>
       </cell>
     </group>
+    <div class="logout-wrap" v-if="getLoginStatus" @click="logout">退出登录</div>
     <vue-footer :active="'my'"></vue-footer>
   </div>
 </template>
@@ -51,13 +52,20 @@ import { Cell, Group } from 'vux'
       Group,
       VueFooter
     },
-    data(){
-      return {
-        userInfo:{
-          img:'http://dl2.files.xiaomi.net/mfsv2/download/fdsc3/p01RAr6ogApd/pQSyU49NiOJZve.jpg?thumb=150x150',
-          name:'Alex-Hanson',
-          id:'164638971'
-        }
+    methods:{
+      login(){
+        this.$store.dispatch('login');
+      },
+      logout(){
+        this.$store.commit('logout');
+      }
+    },
+    computed:{
+      getLoginStatus(){
+        return this.$store.getters.getLoginStatus;
+      },
+      getUserInfo(){
+        return this.$store.getters.getUserInfo;
       }
     }
   }
@@ -111,12 +119,15 @@ import { Cell, Group } from 'vux'
           margin-bottom: 0.3rem;
           color: @baseColorLG;
         }
-        p{
-          margin-top:0.1rem;
+        p {
+          margin-top: 0.1rem;
         }
       }
     }
     .cell-list {
+      .weui_cells {
+        font-size: 0.28rem;
+      }
       .iconfont {
         margin-right: 0.1rem;
       }
@@ -132,6 +143,15 @@ import { Cell, Group } from 'vux'
       .icon-settings {
         color: #7e8a93;
       }
+    }
+    .logout-wrap {
+      width: 5rem;
+      margin: 1rem auto 0;
+      border-radius: 5px;
+      text-align: center;
+      height: 1rem;
+      line-height: 1rem;
+      background-color: @baseColorLG;
     }
   }
 

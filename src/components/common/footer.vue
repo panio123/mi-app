@@ -65,13 +65,16 @@
     left: 0;
     background: #fff;
     width: 100%;
-    height: 0.9rem;
+    height: 0.95rem;
     border-top: 1px solid #e0e0e0;
     ul{
       height:100%;
       color:@baseColorHG;
       .active{
         color: @baseColorY;
+      }
+      li{
+        padding-top:0.1rem;
       }
     }
   }

@@ -20,10 +20,25 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   strict: process.env.NODE_ENV !== 'production',
   state: {
+    _userInfo: {
+      name: 'Alex-Hanson',
+      id: '164638971',
+      img: 'http://dl2.files.xiaomi.net/mfsv2/download/fdsc3/p01RAr6ogApd/pQSyU49NiOJZve.jpg?thumb=150x150'
+    },
     _loginStatus: false,
     _cartList: ''
   },
   getters: {
+    getUserInfo: state => {
+      if (state._loginStatus !== true) {
+        return {
+          img: 'http://m.mi.com/views/user/index/img/avatar_e29d6cb.png',
+          name: '点击登录',
+          id: ''
+        };
+      }
+      return state._userInfo;
+    },
     getLoginStatus: state => {
       return state._loginStatus;
     },
@@ -36,8 +51,10 @@ export default new Vuex.Store({
   },
   mutations: {
     login: state => {
-      state._loginStatus = true;
-      window.localStorage.setItem('mi_app_loginstatus', 1);
+      if (state._loginStatus === false) {
+        state._loginStatus = true;
+        window.localStorage.setItem('mi_app_loginstatus', 1);
+      }
     },
     logout: state => {
       state._loginStatus = false;
@@ -89,6 +106,9 @@ export default new Vuex.Store({
   },
   actions: {
     login: context => {
+      if(context.state._loginStatus === true){
+        return;
+      }
       Vue.$vux.loading.show({
         text: '登录中...'
       });

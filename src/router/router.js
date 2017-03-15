@@ -7,6 +7,7 @@ const Category = r => require.ensure([], () => r(require('../page/category/Categ
 const CategoryList = r => require.ensure([], () => r(require('../page/category/List.vue')), 'category');
 
 const My = r => require.ensure([], () => r(require('../page/my/My.vue')), 'my');
+const Set = r => require.ensure([], () => r(require('../page/my/Set.vue')), 'my');
 
 const Cart = r => require.ensure([], () => r(require('../page/Cart.vue')), 'cart');
 
@@ -57,6 +58,11 @@ const list = {
     name:'my',
     meta:'小米商城-个人中心',
     component:My
+  },{
+    path:'/set',
+    name:'set',
+    meta:'小米商城-个人设置',
+    component:Set
   }]
 };
 export default list;
