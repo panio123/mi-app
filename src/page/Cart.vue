@@ -1,6 +1,6 @@
 <template>
   <div class="page-wrap cart-page has-footer">
-    <vue-header :rightBtnShow="true">购物车<span v-link="'search'" class="iconfont icon-search" slot="right"></vue-header>
+    <vue-header :rightBtnShow="true">购物车<span v-link="'search'" class="iconfont icon-search" slot="right"></span></vue-header>
     <div class="no-login-wrap" v-if="!getLoginStatus">
       <div class="flex flex_a_c flex_j_b login-tips">
         <span class="tips">登录后享受更多优惠</span>
