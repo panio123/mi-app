@@ -17,14 +17,23 @@
   <script>
     function setFontSize() {
       var screenWidth = window.screen.width;
+      var html = document.querySelector('html');
       if(window.parent !== window){
-        screenWidth = document.querySelector('html').offsetWidth;
+        screenWidth = html.offsetWidth;
+        html.className += 'mobile-model';
       }
-      window.htmlFontSize = document.querySelector('html').style.fontSize = parseInt(screenWidth) / 360 * 50 +'px';
+      window.htmlFontSize = html.style.fontSize = parseInt(screenWidth) / 360 * 50 +'px';
     }
     setFontSize();
     window.onresize = setFontSize;
   </script>
+  <style>
+    html.mobile-model,
+    html.mobile-model *,
+    html.mobile-model a{
+      cursor: url("static/cur.png") 10 10,auto!important;
+    }
+  </style>
 </head>
 
 <body>
