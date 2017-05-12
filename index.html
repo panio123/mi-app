@@ -15,7 +15,15 @@
   <link rel="apple-touch-icon-precomposed" href="//img01.mifile.cn/m/app/touch-icon.png">
   <link rel="stylesheet" href="http://at.alicdn.com/t/font_pg0m9jp1l8a1yvi.css">
   <script>
-    window.htmlFontSize = document.querySelector('html').style.fontSize = parseInt(window.screen.width) / 360 * 50 + 'px';
+    function setFontSize() {
+      var screenWidth = window.screen.width;
+      if(window.parent !== window){
+        screenWidth = document.querySelector('html').offsetWidth;
+      }
+      window.htmlFontSize = document.querySelector('html').style.fontSize = parseInt(screenWidth) / 360 * 50 +'px';
+    }
+    setFontSize();
+    window.onresize = setFontSize;
   </script>
 </head>
 
