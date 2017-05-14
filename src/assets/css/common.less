@@ -10,8 +10,12 @@ html {
 body {
   height: 100%;
   width: 100%;
+  overflow-x: hidden;
   font-size: @baseFontSize;
   color: @baseFontColor;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
 }
 
 html,
@@ -57,19 +61,21 @@ img {
   display: block;
   width: 100%;
 }
+
 input,
-textarea{
+textarea {
   outline: none;
 }
 
-.page-wrap{
-  &.has-header{
+.page-wrap {
+  &.has-header {
     padding-top: 1rem;
   }
-  &.has-footer{
+  &.has-footer {
     padding-bottom: 0.95rem;
   }
 }
+
 .product-list-info {
   overflow: hidden;
   h4 {
@@ -105,6 +111,6 @@ textarea{
   }
 }
 
-.iconfont{
+.iconfont {
   font-size: 0.5rem;
 }
